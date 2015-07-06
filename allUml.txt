@@ -1,0 +1,103 @@
+@startuml
+
+package "SO_single_channel" {
+
+	class SOConfigurations {
+		-SOConfigurations(string filename)
+		+map<double, integer> GetChannelPortMap()
+
+		-singleton: SOConfigurations
+		-filename : string
+	}
+
+	class SOGeneticAlgorithm {
+		+Process()
+
+		+freq_port: map<double, integer>
+	}
+
+	class SOPreEqualize {
+		+integer CurveFittine( vector<double> params, map<double, integer> cf_port)
+	}
+
+	class SOTransponder100G{
+		+integer Delay()
+		+integer GetBitError()
+		+integer SetLsFreq( integer channel_num)
+		+bool isInitialized()
+		-Init()
+
+		+singleton: SOTransponder100G
+		-dialog_socket: Poco::Net::DialogSocket 
+	}
+
+	class SOWaveShaper {
+		+integer init()
+		+integer process()
+		+integer finish()
+		-singleton: SOWaveShaper
+	}
+
+	SOGeneticAlgorithm -- SOConfigurations
+	SOGeneticAlgorithm -- SOPreEqualize
+	SOGeneticAlgorithm -- SOTransponder100G
+	SOGeneticAlgorithm -- SOWaveShaper
+}
+
+
+package "myGALib" {
+
+	class EvOptAlgo {
+		+EvPop run()
+		+EvPop runNTimes()
+		+EvPop parametricRun()
+		+bool stop()
+
+		#controller: EvController
+	}
+
+	class EvIndiv {
+		+Fenotype : double
+		+Genotype : vector<double>
+		+bool isValid()
+	}
+
+	class EvController {
+		+start()
+		+stop()
+		+log(string)
+		+bool evaluate(EvIndiv)
+		+bool isFinished()
+	}
+
+	class EvalFunc{
+		+double eval(vector<double>)
+		+dimension : double
+		+maxBound : vector<double>
+		+minBound: vector<double>
+	}
+
+	class EvPop {
+		vector<EvIndiv>
+	}
+
+	EvController o-- EvalFunc
+
+	EvOptAlgo <|-- DiffEv
+	EvOptAlgo <|-- GA
+	EvOptAlgo <|-- OptaiNet
+
+	EvPop o--* EvIndiv
+	EvOptAlgo o-- EvController
+	EvOptAlgo -- EvPop
+
+
+}
+SOGeneticAlgorithm -- EvOptAlgo
+
+
+@enduml
+
+
+
+

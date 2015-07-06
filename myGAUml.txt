@@ -1,0 +1,47 @@
+@startuml
+class EvOptAlgo {
+  +EvPop run()
+  +EvPop runNTimes()
+  +EvPop parametricRun()
+  +bool stop()
+
+  #controller: EvController
+}
+
+class EvIndiv {
+   +Fenotype : double
+   +Genotype : vector<double>
+   +bool isValid()
+}
+
+class EvController {
+start()
+stop()
+log(string)
+bool evaluate(EvIndiv)
+bool isFinished()
+}
+
+class EvalFunc{
+double eval(vector<double>)
+dimension : double
+maxBound : vector<double>
+minBound: vector<double>
+}
+
+class EvPop {
+vector<EvIndiv>
+}
+
+EvController o-- EvalFunc
+
+EvOptAlgo <|-- DiffEv
+EvOptAlgo <|-- GA
+EvOptAlgo <|-- OptaiNet
+
+EvPop o--* EvIndiv
+EvOptAlgo o-- EvController
+EvOptAlgo -- EvPop
+
+@enduml
+

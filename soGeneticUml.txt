@@ -1,0 +1,45 @@
+@startuml
+class SOConfigurations {
+SOConfigurations(string filename)
+map<double, integer> GetChannelPortMap()
+
+singleton: SOConfigurations
+filename : string
+}
+
+class SOGeneticAlgorithm {
+Process()
+
+freq_port: map<double, integer>
+}
+
+class SOPreEqualize {
+integer CurveFittine( vector<double> params, map<double, integer> cf_port)
+}
+
+class SOTransponder100G{
+integer Delay()
+integer GetBitError()
+integer SetLsFreq( integer channel_num)
+bool isInitialized()
+Init()
+
+singleton: SOTransponder100G
+dialog_socket: Poco::Net::DialogSocket 
+}
+
+class SOWaveShaper {
+integer init()
+integer process()
+integer finish()
+singleton: SOWaveShaper
+}
+
+SOGeneticAlgorithm -- SOConfigurations
+SOGeneticAlgorithm -- SOPreEqualize
+SOGeneticAlgorithm -- SOTransponder100G
+SOGeneticAlgorithm -- SOWaveShaper
+
+@enduml
+
+
