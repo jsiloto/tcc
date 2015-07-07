@@ -1,4 +1,5 @@
 @startuml
+top to bottom direction
 
 package "SO_single_channel" {
 
@@ -70,18 +71,12 @@ package "myGALib" {
 		+bool isFinished()
 	}
 
-	class EvalFunc{
-		+double eval(vector<double>)
-		+dimension : double
-		+maxBound : vector<double>
-		+minBound: vector<double>
-	}
+
 
 	class EvPop {
 		vector<EvIndiv>
 	}
 
-	EvController o-- EvalFunc
 
 	EvOptAlgo <|-- DiffEv
 	EvOptAlgo <|-- GA
@@ -93,6 +88,40 @@ package "myGALib" {
 
 
 }
+
+
+package "Test Funcions" {
+
+	class EvalFunc{
+		+double eval(vector<double>)
+		+dimension : double
+		+maxBound : vector<double>
+		+minBound: vector<double>
+	}
+
+	class Sphere {
+	}
+
+	class Ackley{
+	}
+
+	class Opt{
+	}
+
+	class Holder{
+	}
+
+	EvalFunc <|-- Sphere
+	EvalFunc <|-- Ackley
+	EvalFunc <|-- Opt
+	EvalFunc <|-- Holder
+
+
+}
+
+left to right direction
+
+EvController o-- EvalFunc
 SOGeneticAlgorithm -- EvOptAlgo
 
 
