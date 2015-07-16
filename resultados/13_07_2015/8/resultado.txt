@@ -1,0 +1,4119 @@
+Filter Optimization v1.0.1
+/home/root/GASO/testes/testes_finais/8
+Running filter for following channels
+Channel: 194.394
+Port: 1
+Create WaveShaper Sucessful: WS1
+Open WaveShaper Sucessful
+0:      BW: 100 MidAtt: 0 MaxAtt: 0 phase:0
+Load WaveShaper Sucessful
+maximum bit errors: 1705745709 
+maximum bit errors: 1706585769 
+maximum bit errors: 1706732795 
+maximum bit errors: 1708541785 
+maximum bit errors: 1703966873 
+ BER 0: 0.0133309
+EvalFunc: BEREval
+***************************************
+Goal Solution = 0
+***************************************
+Problem Bounds:
+{50 < x[0] < 100} 
+{0.5 < x[1] < 20} 
+{0.5 < x[2] < 20} 
+{0 < x[3] < 6.283} 
+***************************************
+
+The baseline is 0.0133309 This is the baseline. Launch Power = 17.2dbmEvalFunc: BEREval
+***************************************
+Goal Solution = 0
+***************************************
+Problem Bounds:
+{50 < x[0] < 100} 
+{0.5 < x[1] < 20} 
+{0.5 < x[2] < 20} 
+{0 < x[3] < 6.283} 
+***************************************
+
+--------------------------
+Running: OptaiNet 10 times
+10 4 0.6 0.4 0.11:      BW: 51.0742 MidAtt: 3.71503 MaxAtt: 1.01917 phase:2.48687
+Load WaveShaper Sucessful
+maximum bit errors: 2316691536 
+maximum bit errors: 2316292750 
+maximum bit errors: 2317578719 
+maximum bit errors: 2330879825 
+maximum bit errors: 2317828263 
+ BER 0: 0.0181044
+2:      BW: 81.2809 MidAtt: 15.599 MaxAtt: 0.934906 phase:3.25331
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 4294967295 
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0335544
+3:      BW: 90.4368 MidAtt: 16.9122 MaxAtt: 1.58683 phase:2.38082
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 4294967295 
+LOS/LOL!!!
+LOS/LOL!!!
+maximum bit errors: 4294967295 
+ BER 0: 0.0335544
+4:      BW: 54.8512 MidAtt: 15.2949 MaxAtt: 14.0297 phase:0.996452
+Load WaveShaper Sucessful
+maximum bit errors: 304621011 
+maximum bit errors: 303431037 
+maximum bit errors: 304877380 
+maximum bit errors: 304052111 
+maximum bit errors: 304003647 
+ BER 0: 0.00237676
+5:      BW: 67.4249 MidAtt: 6.88446 MaxAtt: 12.0714 phase:1.41357
+Load WaveShaper Sucessful
+maximum bit errors: 1952192832 
+maximum bit errors: 1953470743 
+LOS/LOL!!!
+maximum bit errors: 1955678799 
+maximum bit errors: 1946168567 
+ BER 0: 0.0152639
+6:      BW: 50.7576 MidAtt: 9.53867 MaxAtt: 2.93746 phase:1.74733
+Load WaveShaper Sucessful
+maximum bit errors: 2523713678 
+maximum bit errors: 2551486939 
+maximum bit errors: 2527293504 
+maximum bit errors: 2550050120 
+maximum bit errors: 2541674916 
+ BER 0: 0.0198412
+7:      BW: 78.1723 MidAtt: 15.8372 MaxAtt: 14.9026 phase:3.25699
+Load WaveShaper Sucessful
+maximum bit errors: 160248605 
+maximum bit errors: 160982625 
+maximum bit errors: 161366493 
+maximum bit errors: 161643265 
+maximum bit errors: 161927520 
+ BER 0: 0.0012604
+8:      BW: 76.5692 MidAtt: 16.529 MaxAtt: 13.7078 phase:4.92912
+Load WaveShaper Sucessful
+maximum bit errors: 203468547 
+maximum bit errors: 203880957 
+maximum bit errors: 204528891 
+maximum bit errors: 204057099 
+maximum bit errors: 203650945 
+ BER 0: 0.00159268
+9:      BW: 89.3418 MidAtt: 1.74841 MaxAtt: 2.67943 phase:3.95671
+Load WaveShaper Sucessful
+maximum bit errors: 1300576226 
+maximum bit errors: 1295420004 
+maximum bit errors: 1296039985 
+maximum bit errors: 1295059307 
+maximum bit errors: 1298989486 
+ BER 0: 0.0101314
+10:      BW: 52.474 MidAtt: 15.2888 MaxAtt: 2.47346 phase:4.33003
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 1301572331 
+maximum bit errors: 1588602277 
+maximum bit errors: 1186263845 
+LOS/LOL!!!
+ BER 0: 0.0187113
+11:      BW: 51.0661 MidAtt: 3.6016 MaxAtt: 1.00453 phase:2.45426
+Load WaveShaper Sucessful
+maximum bit errors: 2312666290 
+maximum bit errors: 2312181412 
+maximum bit errors: 2312523210 
+maximum bit errors: 2310804136 
+maximum bit errors: 2311673046 
+ BER 0: 0.0180635
+12:      BW: 50.9027 MidAtt: 3.65715 MaxAtt: 1.14605 phase:2.43548
+Load WaveShaper Sucessful
+maximum bit errors: 2402981117 
+maximum bit errors: 2399929519 
+maximum bit errors: 2399290905 
+maximum bit errors: 2409846580 
+maximum bit errors: 2404314322 
+ BER 0: 0.0187688
+13:      BW: 50.7149 MidAtt: 3.64361 MaxAtt: 1.1924 phase:2.50219
+Load WaveShaper Sucessful
+maximum bit errors: 2387944876 
+maximum bit errors: 2372828028 
+maximum bit errors: 2383648764 
+maximum bit errors: 2385856321 
+maximum bit errors: 2394311342 
+ BER 0: 0.0186392
+14:      BW: 51.6255 MidAtt: 3.76234 MaxAtt: 1.1002 phase:2.55004
+Load WaveShaper Sucessful
+maximum bit errors: 2357929346 
+maximum bit errors: 2357805952 
+maximum bit errors: 2372053754 
+maximum bit errors: 2371418051 
+maximum bit errors: 2375436880 
+ BER 0: 0.0184932
+15:      BW: 81.7139 MidAtt: 15.7038 MaxAtt: 0.997301 phase:3.28816
+Load WaveShaper Sucessful
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+maximum bit errors: 4294967295 
+LOS/LOL!!!
+ BER 0: 0.0335544
+16:      BW: 81.3695 MidAtt: 15.6183 MaxAtt: 0.807306 phase:3.26686
+Load WaveShaper Sucessful
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+LOS/LOL!!!
+maximum bit errors: 4294967295 
+maximum bit errors: 1507630529 
+ BER 0: 0.0335544
+17:      BW: 81.5671 MidAtt: 15.6698 MaxAtt: 0.968976 phase:3.26835
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+LOS/LOL!!!
+ BER 0: 0.0335544
+18:      BW: 81.3944 MidAtt: 15.6114 MaxAtt: 0.958641 phase:3.24064
+Load WaveShaper Sucessful
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0335544
+19:      BW: 90.4475 MidAtt: 16.8128 MaxAtt: 1.58129 phase:2.3401
+Load WaveShaper Sucessful
+LOS/LOL!!!
+LOS/LOL!!!
+maximum bit errors: 4294967295 
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0335544
+20:      BW: 90.2044 MidAtt: 16.9735 MaxAtt: 1.39547 phase:2.35133
+Load WaveShaper Sucessful
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+ BER 0: 0.0335544
+21:      BW: 90.6484 MidAtt: 16.9365 MaxAtt: 1.65423 phase:2.37424
+Load WaveShaper Sucessful
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0335544
+22:      BW: 90.4239 MidAtt: 16.8979 MaxAtt: 1.65972 phase:2.36576
+Load WaveShaper Sucessful
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+ BER 0: 0.0335544
+23:      BW: 55.0514 MidAtt: 15.344 MaxAtt: 13.9973 phase:0.966895
+Load WaveShaper Sucessful
+maximum bit errors: 361757141 
+maximum bit errors: 361479974 
+maximum bit errors: 363755633 
+maximum bit errors: 362852674 
+maximum bit errors: 363168126 
+ BER 0: 0.00283275
+24:      BW: 54.8294 MidAtt: 15.479 MaxAtt: 14.0463 phase:1.05833
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 291948441 
+maximum bit errors: 291697921 
+maximum bit errors: 292615883 
+maximum bit errors: 291883381 
+ BER 0: 0.00228242
+25:      BW: 55.031 MidAtt: 15.0642 MaxAtt: 14.1134 phase:1.07832
+Load WaveShaper Sucessful
+maximum bit errors: 418673854 
+maximum bit errors: 418061937 
+maximum bit errors: 415836803 
+maximum bit errors: 414852211 
+maximum bit errors: 416396909 
+ BER 0: 0.00325598
+26:      BW: 54.9031 MidAtt: 15.2088 MaxAtt: 13.6643 phase:1.04119
+Load WaveShaper Sucessful
+maximum bit errors: 291636650 
+maximum bit errors: 291466015 
+maximum bit errors: 292760354 
+maximum bit errors: 291111871 
+maximum bit errors: 290666171 
+ BER 0: 0.0022766
+27:      BW: 67.2756 MidAtt: 6.75539 MaxAtt: 12.057 phase:1.487
+Load WaveShaper Sucessful
+maximum bit errors: 2057142885 
+maximum bit errors: 2062589792 
+maximum bit errors: 2073066845 
+maximum bit errors: 2062713807 
+maximum bit errors: 2059071146 
+ BER 0: 0.0161051
+28:      BW: 67.6788 MidAtt: 7.02829 MaxAtt: 12.1349 phase:1.40107
+Load WaveShaper Sucessful
+maximum bit errors: 1755629573 
+maximum bit errors: 1770650067 
+maximum bit errors: 1770079281 
+maximum bit errors: 1760913667 
+maximum bit errors: 1770828671 
+ BER 0: 0.0138064
+29:      BW: 67.8118 MidAtt: 6.85019 MaxAtt: 11.9525 phase:1.4086
+Load WaveShaper Sucessful
+maximum bit errors: 1756702065 
+maximum bit errors: 1746841486 
+maximum bit errors: 1753991041 
+maximum bit errors: 1759388504 
+maximum bit errors: 1754749546 
+ BER 0: 0.0137121
+30:      BW: 67.6826 MidAtt: 6.84919 MaxAtt: 12.0538 phase:1.39726
+Load WaveShaper Sucessful
+maximum bit errors: 1842105485 
+maximum bit errors: 1877929125 
+maximum bit errors: 1876946457 
+maximum bit errors: 1858541961 
+maximum bit errors: 1853563337 
+ BER 0: 0.0145548
+31:      BW: 50.6261 MidAtt: 9.58196 MaxAtt: 2.94668 phase:1.75582
+Load WaveShaper Sucessful
+maximum bit errors: 2538826935 
+maximum bit errors: 2536124895 
+maximum bit errors: 2520916663 
+maximum bit errors: 2528179807 
+maximum bit errors: 2513655841 
+ BER 0: 0.0197532
+32:      BW: 50.688 MidAtt: 9.59561 MaxAtt: 2.7814 phase:1.72633
+Load WaveShaper Sucessful
+maximum bit errors: 2585510827 
+maximum bit errors: 2552353033 
+maximum bit errors: 2596587257 
+maximum bit errors: 2545407502 
+maximum bit errors: 2591860756 
+ BER 0: 0.0201295
+33:      BW: 51.1469 MidAtt: 9.68668 MaxAtt: 2.88856 phase:1.71388
+Load WaveShaper Sucessful
+maximum bit errors: 2540052976 
+maximum bit errors: 2488291556 
+maximum bit errors: 2543875766 
+maximum bit errors: 2552383837 
+maximum bit errors: 2527778514 
+ BER 0: 0.0198222
+34:      BW: 50.8201 MidAtt: 9.56974 MaxAtt: 3.02508 phase:1.72106
+Load WaveShaper Sucessful
+maximum bit errors: 2577025625 
+maximum bit errors: 2529209855 
+maximum bit errors: 2534544293 
+maximum bit errors: 2525486373 
+maximum bit errors: 2558821103 
+ BER 0: 0.0198505
+35:      BW: 78.2608 MidAtt: 15.7878 MaxAtt: 14.6646 phase:3.26576
+Load WaveShaper Sucessful
+maximum bit errors: 160033274 
+maximum bit errors: 160100903 
+maximum bit errors: 161333519 
+maximum bit errors: 160567732 
+maximum bit errors: 160637242 
+ BER 0: 0.0012534
+36:      BW: 79.191 MidAtt: 15.6094 MaxAtt: 15.05 phase:3.308
+Load WaveShaper Sucessful
+maximum bit errors: 156899704 
+maximum bit errors: 156568960 
+maximum bit errors: 156865184 
+maximum bit errors: 157441544 
+maximum bit errors: 156929984 
+ BER 0: 0.00122577
+37:      BW: 78.2069 MidAtt: 15.8484 MaxAtt: 14.5222 phase:3.21234
+Load WaveShaper Sucessful
+maximum bit errors: 163736859 
+maximum bit errors: 163651930 
+maximum bit errors: 163308356 
+maximum bit errors: 164124443 
+maximum bit errors: 163875412 
+ BER 0: 0.00127933
+38:      BW: 77.8534 MidAtt: 15.6478 MaxAtt: 15.036 phase:3.26322
+Load WaveShaper Sucessful
+maximum bit errors: 156409595 
+maximum bit errors: 156036333 
+maximum bit errors: 156084565 
+maximum bit errors: 156420696 
+maximum bit errors: 4294961798 
+ BER 0: 0.00122113
+39:      BW: 76.2537 MidAtt: 16.6539 MaxAtt: 13.5989 phase:4.95238
+Load WaveShaper Sucessful
+maximum bit errors: 213832400 
+maximum bit errors: 212845225 
+maximum bit errors: 213250610 
+maximum bit errors: 4294935093 
+maximum bit errors: 212835144 
+ BER 0: 0.00166648
+40:      BW: 76.4158 MidAtt: 16.2931 MaxAtt: 13.6122 phase:4.81621
+Load WaveShaper Sucessful
+maximum bit errors: 197299732 
+maximum bit errors: 197645341 
+maximum bit errors: 197665996 
+LOS/LOL!!!
+maximum bit errors: 197427408 
+ BER 0: 0.00154359
+41:      BW: 76.4229 MidAtt: 16.5116 MaxAtt: 13.7493 phase:4.93124
+Load WaveShaper Sucessful
+maximum bit errors: 202548668 
+maximum bit errors: 202871235 
+maximum bit errors: 201963897 
+maximum bit errors: 202161478 
+maximum bit errors: 202971153 
+ BER 0: 0.00158224
+42:      BW: 76.0683 MidAtt: 16.6217 MaxAtt: 13.5536 phase:4.82148
+Load WaveShaper Sucessful
+maximum bit errors: 210251474 
+maximum bit errors: 209470341 
+maximum bit errors: 210307647 
+maximum bit errors: 209368325 
+maximum bit errors: 210290105 
+ BER 0: 0.00164066
+43:      BW: 89.2283 MidAtt: 1.53909 MaxAtt: 2.47775 phase:3.98677
+Load WaveShaper Sucessful
+maximum bit errors: 1313695420 
+maximum bit errors: 1316698301 
+maximum bit errors: 1311684193 
+maximum bit errors: 1311467160 
+maximum bit errors: 1309499554 
+ BER 0: 0.0102522
+44:      BW: 89.122 MidAtt: 1.84357 MaxAtt: 2.88421 phase:3.95427
+Load WaveShaper Sucessful
+maximum bit errors: 1252752970 
+maximum bit errors: 1255336710 
+maximum bit errors: 1255630017 
+maximum bit errors: 1257079125 
+maximum bit errors: 1251883701 
+ BER 0: 0.00980135
+45:      BW: 88.918 MidAtt: 1.54738 MaxAtt: 2.69777 phase:3.88882
+Load WaveShaper Sucessful
+maximum bit errors: 1255874499 
+maximum bit errors: 1257713788 
+maximum bit errors: 1257497994 
+maximum bit errors: 1256223078 
+maximum bit errors: 1254402418 
+ BER 0: 0.00981665
+46:      BW: 90.2037 MidAtt: 1.96475 MaxAtt: 2.96654 phase:4.07761
+Load WaveShaper Sucessful
+maximum bit errors: 1263716027 
+maximum bit errors: 1262482700 
+maximum bit errors: 1263676816 
+maximum bit errors: 1262410665 
+maximum bit errors: 1262579302 
+ BER 0: 0.00986651
+47:      BW: 52.3116 MidAtt: 15.0094 MaxAtt: 2.47412 phase:4.3096
+Load WaveShaper Sucessful
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0335544
+48:      BW: 52.7784 MidAtt: 15.3418 MaxAtt: 2.63974 phase:4.34965
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 271142896 
+maximum bit errors: 202230806 
+maximum bit errors: 86078167 
+maximum bit errors: 106168714 
+ BER 0: 0.00150922
+49:      BW: 52.3899 MidAtt: 15.4228 MaxAtt: 2.41209 phase:4.35876
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 288792434 
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0335544
+50:      BW: 51.7356 MidAtt: 15.4499 MaxAtt: 2.33017 phase:4.30374
+Load WaveShaper Sucessful
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+maximum bit errors: 199987095 
+ BER 0: 0.0335544
+51:      BW: 51.5785 MidAtt: 3.54386 MaxAtt: 0.948123 phase:2.43253
+Load WaveShaper Sucessful
+maximum bit errors: 2372411516 
+maximum bit errors: 2359133289 
+maximum bit errors: 2358405909 
+maximum bit errors: 2367591583 
+maximum bit errors: 2357394729 
+ BER 0: 0.0184509
+52:      BW: 51.0876 MidAtt: 3.61489 MaxAtt: 1.02749 phase:2.47678
+Load WaveShaper Sucessful
+maximum bit errors: 2319331069 
+maximum bit errors: 2319936392 
+maximum bit errors: 2320151970 
+maximum bit errors: 2319135646 
+maximum bit errors: 2319948947 
+ BER 0: 0.018123
+53:      BW: 50.8799 MidAtt: 3.75118 MaxAtt: 0.919168 phase:2.4601
+Load WaveShaper Sucessful
+maximum bit errors: 2426766751 
+maximum bit errors: 2435418706 
+maximum bit errors: 2447471709 
+maximum bit errors: 2434809678 
+maximum bit errors: 2438927421 
+ BER 0: 0.0190343
+54:      BW: 51.0333 MidAtt: 3.69821 MaxAtt: 1.00266 phase:2.43192
+Load WaveShaper Sucessful
+maximum bit errors: 2314705381 
+maximum bit errors: 2314826523 
+maximum bit errors: 2315655689 
+maximum bit errors: 2313918155 
+maximum bit errors: 2313123473 
+ BER 0: 0.0180819
+55:      BW: 81.85 MidAtt: 15.6969 MaxAtt: 0.958861 phase:3.29285
+Load WaveShaper Sucessful
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0335544
+56:      BW: 81.5814 MidAtt: 15.5991 MaxAtt: 0.984394 phase:3.32709
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 4294967295 
+LOS/LOL!!!
+maximum bit errors: 4294967295 
+LOS/LOL!!!
+ BER 0: 0.0335544
+57:      BW: 81.6576 MidAtt: 15.7631 MaxAtt: 0.94766 phase:3.3066
+Load WaveShaper Sucessful
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+LOS/LOL!!!
+ BER 0: 0.0335544
+58:      BW: 81.8786 MidAtt: 15.5351 MaxAtt: 1.00849 phase:3.28609
+Load WaveShaper Sucessful
+LOS/LOL!!!
+LOS/LOL!!!
+maximum bit errors: 4294967295 
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0335544
+59:      BW: 90.5972 MidAtt: 16.818 MaxAtt: 1.5622 phase:2.31278
+Load WaveShaper Sucessful
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0335544
+60:      BW: 90.487 MidAtt: 16.87 MaxAtt: 1.66214 phase:2.29193
+Load WaveShaper Sucessful
+maximum bit errors: 4294967295 
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0335544
+61:      BW: 90.5316 MidAtt: 16.8002 MaxAtt: 1.63098 phase:2.32624
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 4294967295 
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0335544
+62:      BW: 90.4131 MidAtt: 16.753 MaxAtt: 1.53645 phase:2.3557
+Load WaveShaper Sucessful
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0335544
+63:      BW: 55.6025 MidAtt: 15.5949 MaxAtt: 13.6854 phase:1.14458
+Load WaveShaper Sucessful
+maximum bit errors: 244958238 
+maximum bit errors: 246337957 
+maximum bit errors: 246931691 
+maximum bit errors: 245725037 
+maximum bit errors: 247214372 
+ BER 0: 0.00192447
+64:      BW: 54.8456 MidAtt: 14.7539 MaxAtt: 13.5354 phase:1.01143
+Load WaveShaper Sucessful
+maximum bit errors: 346976538 
+maximum bit errors: 347649567 
+maximum bit errors: 345627366 
+maximum bit errors: 346979145 
+maximum bit errors: 345116421 
+ BER 0: 0.00270725
+65:      BW: 55.3092 MidAtt: 15.4867 MaxAtt: 13.784 phase:1.00697
+Load WaveShaper Sucessful
+maximum bit errors: 288802076 
+maximum bit errors: 288778440 
+maximum bit errors: 288860232 
+maximum bit errors: 288063604 
+maximum bit errors: 288420914 
+ BER 0: 0.00225521
+66:      BW: 54.3216 MidAtt: 15.2277 MaxAtt: 13.5332 phase:1.0803
+Load WaveShaper Sucessful
+maximum bit errors: 382928202 
+maximum bit errors: 383548563 
+maximum bit errors: 382823057 
+maximum bit errors: 383251302 
+maximum bit errors: 383738186 
+ BER 0: 0.00299408
+67:      BW: 67.8601 MidAtt: 6.92083 MaxAtt: 11.944 phase:1.43851
+Load WaveShaper Sucessful
+maximum bit errors: 1668279587 
+maximum bit errors: 1670974296 
+maximum bit errors: 1675035765 
+maximum bit errors: 1680435607 
+maximum bit errors: 1678539035 
+ BER 0: 0.0130848
+68:      BW: 67.7752 MidAtt: 6.89913 MaxAtt: 11.7037 phase:1.39049
+Load WaveShaper Sucessful
+maximum bit errors: 1586847889 
+maximum bit errors: 1588554292 
+maximum bit errors: 1588039417 
+maximum bit errors: 1590296575 
+maximum bit errors: 1582563327 
+ BER 0: 0.0124048
+69:      BW: 67.8616 MidAtt: 6.69762 MaxAtt: 12.1236 phase:1.44527
+Load WaveShaper Sucessful
+maximum bit errors: 1946400684 
+maximum bit errors: 1941357178 
+maximum bit errors: 1944462690 
+LOS/LOL!!!
+maximum bit errors: 1943874492 
+ BER 0: 0.0151946
+70:      BW: 67.9916 MidAtt: 6.74626 MaxAtt: 11.7941 phase:1.38589
+Load WaveShaper Sucessful
+maximum bit errors: 2199859372 
+maximum bit errors: 2197478759 
+maximum bit errors: 2195994351 
+maximum bit errors: 2199843524 
+maximum bit errors: 2199726235 
+ BER 0: 0.0171798
+71:      BW: 50.6329 MidAtt: 9.42901 MaxAtt: 2.97773 phase:1.77545
+Load WaveShaper Sucessful
+maximum bit errors: 2518573971 
+maximum bit errors: 2500584906 
+maximum bit errors: 2458098696 
+maximum bit errors: 2498762196 
+maximum bit errors: 2468194861 
+ BER 0: 0.0194467
+72:      BW: 50.6679 MidAtt: 9.32687 MaxAtt: 2.78654 phase:1.73389
+Load WaveShaper Sucessful
+maximum bit errors: 2529007271 
+maximum bit errors: 2530354933 
+maximum bit errors: 2488856013 
+maximum bit errors: 2523770376 
+maximum bit errors: 2559692402 
+ BER 0: 0.0197477
+73:      BW: 50.4416 MidAtt: 9.60882 MaxAtt: 2.89885 phase:1.77937
+Load WaveShaper Sucessful
+maximum bit errors: 2477845424 
+maximum bit errors: 2486283550 
+LOS/LOL!!!
+maximum bit errors: 2498501776 
+maximum bit errors: 2496836354 
+ BER 0: 0.0194834
+74:      BW: 50.2672 MidAtt: 9.72444 MaxAtt: 2.89971 phase:1.79025
+Load WaveShaper Sucessful
+maximum bit errors: 2484721735 
+maximum bit errors: 2432378135 
+maximum bit errors: 2479064059 
+maximum bit errors: 2479660057 
+maximum bit errors: 2471023210 
+ BER 0: 0.0193483
+75:      BW: 77.731 MidAtt: 15.6363 MaxAtt: 15.1306 phase:3.28635
+Load WaveShaper Sucessful
+maximum bit errors: 155137274 
+maximum bit errors: 155232761 
+maximum bit errors: 155822343 
+maximum bit errors: 156181492 
+maximum bit errors: 157206131 
+ BER 0: 0.00121676
+76:      BW: 77.7869 MidAtt: 15.2177 MaxAtt: 15.1603 phase:3.23961
+Load WaveShaper Sucessful
+maximum bit errors: 146418776 
+maximum bit errors: 145759939 
+maximum bit errors: 145919374 
+maximum bit errors: 147322601 
+maximum bit errors: 146694842 
+ BER 0: 0.00114331
+77:      BW: 77.4388 MidAtt: 16.0189 MaxAtt: 14.9653 phase:3.32921
+Load WaveShaper Sucessful
+maximum bit errors: 168007228 
+maximum bit errors: 167296181 
+maximum bit errors: 167256663 
+maximum bit errors: 168468768 
+maximum bit errors: 167799051 
+ BER 0: 0.00131016
+78:      BW: 78.0408 MidAtt: 15.4027 MaxAtt: 14.8307 phase:3.30653
+Load WaveShaper Sucessful
+maximum bit errors: 153039842 
+maximum bit errors: 153065446 
+maximum bit errors: 153473799 
+maximum bit errors: 153605575 
+maximum bit errors: 153124407 
+ BER 0: 0.00119704
+79:      BW: 75.4232 MidAtt: 16.2702 MaxAtt: 13.6333 phase:4.7928
+Load WaveShaper Sucessful
+maximum bit errors: 198360922 
+maximum bit errors: 198486980 
+maximum bit errors: 198268067 
+maximum bit errors: 196503059 
+maximum bit errors: 197363225 
+ BER 0: 0.00154685
+80:      BW: 76.5005 MidAtt: 16.4047 MaxAtt: 13.8826 phase:4.77788
+Load WaveShaper Sucessful
+maximum bit errors: 193846396 
+maximum bit errors: 197475007 
+maximum bit errors: 196138262 
+maximum bit errors: 193949077 
+maximum bit errors: 193549947 
+ BER 0: 0.00152066
+81:      BW: 76.1367 MidAtt: 16.1976 MaxAtt: 13.5156 phase:4.77681
+Load WaveShaper Sucessful
+maximum bit errors: 191699323 
+maximum bit errors: 191341135 
+maximum bit errors: 191070751 
+maximum bit errors: 190759005 
+maximum bit errors: 190753746 
+ BER 0: 0.00149263
+82:      BW: 75.9147 MidAtt: 16.3807 MaxAtt: 13.819 phase:4.81597
+Load WaveShaper Sucessful
+maximum bit errors: 200439626 
+maximum bit errors: 200308592 
+maximum bit errors: 201567904 
+maximum bit errors: 200487730 
+LOS/LOL!!!
+ BER 0: 0.001569
+83:      BW: 89.4137 MidAtt: 1.51442 MaxAtt: 3.00762 phase:3.96977
+Load WaveShaper Sucessful
+maximum bit errors: 1172706692 
+maximum bit errors: 1171676082 
+maximum bit errors: 1171272192 
+maximum bit errors: 1167997748 
+maximum bit errors: 1166901530 
+ BER 0: 0.00914309
+84:      BW: 89.3275 MidAtt: 1.69057 MaxAtt: 2.84909 phase:3.86812
+Load WaveShaper Sucessful
+maximum bit errors: 1238391581 
+maximum bit errors: 1237218177 
+maximum bit errors: 1237892982 
+maximum bit errors: 1234598816 
+maximum bit errors: 1235542163 
+ BER 0: 0.00966316
+85:      BW: 89.2063 MidAtt: 1.72434 MaxAtt: 2.85417 phase:3.95615
+Load WaveShaper Sucessful
+maximum bit errors: 1235553794 
+maximum bit errors: 1234785587 
+maximum bit errors: 281471917354378 
+maximum bit errors: 1236583395 
+maximum bit errors: 1235064112 
+ BER 0: 0.00964484
+86:      BW: 89.7512 MidAtt: 1.70092 MaxAtt: 2.97761 phase:3.96029
+Load WaveShaper Sucessful
+maximum bit errors: 1194671201 
+maximum bit errors: 1195265002 
+maximum bit errors: 1196148255 
+maximum bit errors: 1198755814 
+maximum bit errors: 1199603762 
+ BER 0: 0.0093494
+87:      BW: 52.3296 MidAtt: 15.1856 MaxAtt: 2.39911 phase:4.32087
+Load WaveShaper Sucessful
+maximum bit errors: 340591421 
+maximum bit errors: 594507876 
+maximum bit errors: 305692139 
+maximum bit errors: 1102813879 
+maximum bit errors: 140686063 
+ BER 0: 0.00323123
+88:      BW: 53.0524 MidAtt: 15.1097 MaxAtt: 2.84502 phase:4.32164
+Load WaveShaper Sucessful
+maximum bit errors: 204193916 
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0335544
+89:      BW: 53.4415 MidAtt: 15.0748 MaxAtt: 2.50451 phase:4.34351
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 141632973 
+LOS/LOL!!!
+LOS/LOL!!!
+maximum bit errors: 197906510 
+ BER 0: 0.022885
+90:      BW: 52.2749 MidAtt: 15.2633 MaxAtt: 2.27326 phase:4.36556
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 1078506796 
+maximum bit errors: 792304903 
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0251782
+91:      BW: 63.2569 MidAtt: 7.38983 MaxAtt: 9.89439 phase:5.39797
+Load WaveShaper Sucessful
+maximum bit errors: 1198356065 
+maximum bit errors: 1202678962 
+maximum bit errors: 1203075338 
+maximum bit errors: 1198908739 
+maximum bit errors: 1206058408 
+ BER 0: 0.00938714
+92:      BW: 71.941 MidAtt: 5.04574 MaxAtt: 11.3983 phase:4.39681
+Load WaveShaper Sucessful
+maximum bit errors: 2076615777 
+maximum bit errors: 2084459256 
+maximum bit errors: 2078926539 
+maximum bit errors: 2090106878 
+maximum bit errors: 2084954539 
+ BER 0: 0.0162717
+93:      BW: 77.6573 MidAtt: 14.8091 MaxAtt: 14.9487 phase:3.31999
+Load WaveShaper Sucessful
+maximum bit errors: 138834872 
+maximum bit errors: 138103598 
+maximum bit errors: 137962645 
+maximum bit errors: 138174691 
+maximum bit errors: 137791353 
+ BER 0: 0.00107875
+94:      BW: 78.2545 MidAtt: 14.7768 MaxAtt: 15.3108 phase:3.27686
+Load WaveShaper Sucessful
+maximum bit errors: 147593332 
+maximum bit errors: 147648050 
+maximum bit errors: 147517803 
+maximum bit errors: 147588367 
+maximum bit errors: 146938052 
+ BER 0: 0.00115286
+95:      BW: 78.2168 MidAtt: 14.9887 MaxAtt: 15.4179 phase:3.16278
+Load WaveShaper Sucessful
+maximum bit errors: 152427933 
+maximum bit errors: 152653462 
+maximum bit errors: 152464534 
+maximum bit errors: 152198238 
+maximum bit errors: 152058401 
+ BER 0: 0.00119034
+96:      BW: 77.497 MidAtt: 15.0578 MaxAtt: 14.9619 phase:3.32703
+Load WaveShaper Sucessful
+maximum bit errors: 143888550 
+maximum bit errors: 143110921 
+maximum bit errors: 142838405 
+maximum bit errors: 143042583 
+maximum bit errors: 144184881 
+ BER 0: 0.0011199
+97:      BW: 53.4612 MidAtt: 15.3005 MaxAtt: 2.58657 phase:4.33187
+Load WaveShaper Sucessful
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0335544
+98:      BW: 52.6815 MidAtt: 15.3345 MaxAtt: 2.56007 phase:4.28635
+Load WaveShaper Sucessful
+maximum bit errors: 1291567030 
+LOS/LOL!!!
+LOS/LOL!!!
+maximum bit errors: 1914563063 
+maximum bit errors: 285610964 
+ BER 0: 0.0195341
+99:      BW: 53.1443 MidAtt: 15.2648 MaxAtt: 2.86101 phase:4.39373
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 2152727110 
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0335544
+100:      BW: 53.1593 MidAtt: 14.8558 MaxAtt: 2.67461 phase:4.46734
+Load WaveShaper Sucessful
+maximum bit errors: 257417639 
+LOS/LOL!!!
+LOS/LOL!!!
+maximum bit errors: 345899904 
+LOS/LOL!!!
+ BER 0: 0.0232704
+101:      BW: 70.2586 MidAtt: 19.0798 MaxAtt: 8.16885 phase:3.70298
+Load WaveShaper Sucessful
+maximum bit errors: 2342441005 
+maximum bit errors: 2346623852 
+maximum bit errors: 2344215135 
+maximum bit errors: 2341978268 
+maximum bit errors: 2344945060 
+ BER 0: 0.0183115
+102:      BW: 82.0537 MidAtt: 13.0641 MaxAtt: 9.42074 phase:0.972234
+Load WaveShaper Sucessful
+maximum bit errors: 1044791161 
+maximum bit errors: 1043937059 
+maximum bit errors: 1043254738 
+maximum bit errors: 1044201115 
+maximum bit errors: 1043159315 
+ BER 0: 0.00815467
+103:      BW: 50.9048 MidAtt: 5.05618 MaxAtt: 2.40456 phase:5.93836
+Load WaveShaper Sucessful
+maximum bit errors: 2281201754 
+maximum bit errors: 2273318720 
+maximum bit errors: 2271583239 
+maximum bit errors: 2273112080 
+maximum bit errors: 2273015577 
+ BER 0: 0.017759
+104:      BW: 91.6111 MidAtt: 4.87262 MaxAtt: 16.1141 phase:5.09298
+Load WaveShaper Sucessful
+maximum bit errors: 2201802031 
+maximum bit errors: 2200743690 
+maximum bit errors: 2200530089 
+maximum bit errors: 2200133162 
+maximum bit errors: 2200531462 
+ BER 0: 0.0171922
+105:      BW: 50.0538 MidAtt: 8.43492 MaxAtt: 3.73348 phase:3.81671
+Load WaveShaper Sucessful
+maximum bit errors: 2168351196 
+maximum bit errors: 2167682839 
+maximum bit errors: 2169899666 
+maximum bit errors: 2166935614 
+maximum bit errors: 2166845846 
+ BER 0: 0.0169348
+106:      BW: 87.202 MidAtt: 12.9931 MaxAtt: 10.1566 phase:3.92833
+Load WaveShaper Sucessful
+maximum bit errors: 887486009 
+maximum bit errors: 888708534 
+maximum bit errors: 888318472 
+maximum bit errors: 886469555 
+maximum bit errors: 886604534 
+ BER 0: 0.00693336
+107:      BW: 83.2761 MidAtt: 4.35755 MaxAtt: 16.592 phase:1.07325
+Load WaveShaper Sucessful
+maximum bit errors: 2746656309 
+maximum bit errors: 2747396167 
+maximum bit errors: 2747609591 
+maximum bit errors: 2734017179 
+maximum bit errors: 2735849266 
+ BER 0: 0.021432
+108:      BW: 63.4108 MidAtt: 1.92621 MaxAtt: 5.47203 phase:1.95841
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 1922020065 
+maximum bit errors: 1920222036 
+maximum bit errors: 1917916137 
+maximum bit errors: 1916580964 
+ BER 0: 0.0150004
+109:      BW: 70.0179 MidAtt: 2.08662 MaxAtt: 1.63064 phase:2.46423
+Load WaveShaper Sucessful
+maximum bit errors: 1696403888 
+maximum bit errors: 1697032659 
+maximum bit errors: 1695248397 
+maximum bit errors: 1694318792 
+maximum bit errors: 1697189662 
+ BER 0: 0.0132518
+110:      BW: 75.9933 MidAtt: 9.06684 MaxAtt: 14.7537 phase:5.54217
+Load WaveShaper Sucessful
+maximum bit errors: 1046620476 
+maximum bit errors: 1048262905 
+maximum bit errors: 1048635358 
+maximum bit errors: 1044965873 
+maximum bit errors: 1046982397 
+ BER 0: 0.00818194
+111:      BW: 70.4111 MidAtt: 19.1358 MaxAtt: 8.13985 phase:3.71539
+Load WaveShaper Sucessful
+maximum bit errors: 2384965010 
+maximum bit errors: 2384921248 
+maximum bit errors: 2384541297 
+maximum bit errors: 2386273820 
+maximum bit errors: 2382466037 
+ BER 0: 0.0186313
+112:      BW: 70.2415 MidAtt: 18.9306 MaxAtt: 8.16754 phase:3.71919
+Load WaveShaper Sucessful
+maximum bit errors: 2320773461 
+maximum bit errors: 2323430194 
+maximum bit errors: 2318681516 
+maximum bit errors: 2320424047 
+maximum bit errors: 2320896896 
+ BER 0: 0.0181305
+113:      BW: 70.3627 MidAtt: 19.0531 MaxAtt: 8.20436 phase:3.71603
+Load WaveShaper Sucessful
+maximum bit errors: 2336930544 
+maximum bit errors: 4294919821 
+maximum bit errors: 2330921106 
+maximum bit errors: 2330163062 
+maximum bit errors: 2329744912 
+ BER 0: 0.018224
+114:      BW: 70.3491 MidAtt: 18.9903 MaxAtt: 8.12787 phase:3.71869
+Load WaveShaper Sucessful
+maximum bit errors: 2365824781 
+maximum bit errors: 2366266774 
+maximum bit errors: 2365850963 
+maximum bit errors: 2373531123 
+maximum bit errors: 2368101298 
+ BER 0: 0.0184902
+115:      BW: 81.852 MidAtt: 13.1792 MaxAtt: 9.56958 phase:0.950034
+Load WaveShaper Sucessful
+maximum bit errors: 1158464718 
+maximum bit errors: 1158074433 
+maximum bit errors: 1157388763 
+maximum bit errors: 60652 
+maximum bit errors: 1155109574 
+ BER 0: 0.00903795
+116:      BW: 81.9739 MidAtt: 13.0116 MaxAtt: 9.25697 phase:0.907612
+Load WaveShaper Sucessful
+maximum bit errors: 1407286997 
+maximum bit errors: 1401903795 
+maximum bit errors: 1404248768 
+maximum bit errors: 1407967158 
+maximum bit errors: 1414088197 
+ BER 0: 0.0109883
+117:      BW: 82.1141 MidAtt: 12.9455 MaxAtt: 9.22243 phase:0.931512
+Load WaveShaper Sucessful
+maximum bit errors: 1182104336 
+maximum bit errors: 1178747345 
+maximum bit errors: 1178461315 
+maximum bit errors: 1182326282 
+maximum bit errors: 1176626071 
+ BER 0: 0.00921696
+118:      BW: 82.4639 MidAtt: 12.9613 MaxAtt: 9.37426 phase:0.982764
+Load WaveShaper Sucessful
+maximum bit errors: 1123785635 
+maximum bit errors: 1129512986 
+maximum bit errors: 1127072080 
+maximum bit errors: 1130195987 
+maximum bit errors: 1121808434 
+ BER 0: 0.00880305
+119:      BW: 51.0353 MidAtt: 4.92119 MaxAtt: 2.31526 phase:5.89523
+Load WaveShaper Sucessful
+maximum bit errors: 2171476397 
+maximum bit errors: 2171250724 
+maximum bit errors: 2170402093 
+maximum bit errors: 2171679056 
+maximum bit errors: 2172222639 
+ BER 0: 0.0169646
+120:      BW: 50.922 MidAtt: 4.98198 MaxAtt: 2.28727 phase:5.971
+Load WaveShaper Sucessful
+maximum bit errors: 2299964310 
+maximum bit errors: 2300255141 
+maximum bit errors: 2302712357 
+maximum bit errors: 2303029648 
+maximum bit errors: 1239250999239 
+ BER 0: 0.0179845
+121:      BW: 51.1595 MidAtt: 5.07491 MaxAtt: 2.47301 phase:5.9863
+Load WaveShaper Sucessful
+maximum bit errors: 2166460248 
+maximum bit errors: 2166246589 
+maximum bit errors: 2165314399 
+maximum bit errors: 2167036819 
+maximum bit errors: 57019985766078 
+ BER 0: 0.0169275
+122:      BW: 51.0968 MidAtt: 5.08314 MaxAtt: 2.52974 phase:5.96879
+Load WaveShaper Sucessful
+maximum bit errors: 2153557151 
+maximum bit errors: 2153963876 
+maximum bit errors: 2154152873 
+maximum bit errors: 2154691690 
+maximum bit errors: 281472837762888 
+ BER 0: 0.0168266
+123:      BW: 91.632 MidAtt: 4.84599 MaxAtt: 15.9925 phase:5.10891
+Load WaveShaper Sucessful
+maximum bit errors: 2209153023 
+maximum bit errors: 4294942084 
+maximum bit errors: 2209618486 
+maximum bit errors: 2206783808 
+maximum bit errors: 2206146966 
+ BER 0: 0.0172541
+124:      BW: 91.9052 MidAtt: 4.74683 MaxAtt: 16.2354 phase:5.098
+Load WaveShaper Sucessful
+maximum bit errors: 2202352315 
+maximum bit errors: 2202441934 
+maximum bit errors: 2202476199 
+maximum bit errors: 2202469935 
+maximum bit errors: 2202325917 
+ BER 0: 0.0172064
+125:      BW: 92.0784 MidAtt: 4.88143 MaxAtt: 16.0539 phase:5.09779
+Load WaveShaper Sucessful
+maximum bit errors: 2237058677 
+maximum bit errors: 2239957682 
+maximum bit errors: 2239044788 
+maximum bit errors: 2238617068 
+maximum bit errors: 2236824469 
+ BER 0: 0.0174863
+126:      BW: 91.548 MidAtt: 5.06444 MaxAtt: 16.2038 phase:5.09821
+Load WaveShaper Sucessful
+maximum bit errors: 2206463885 
+maximum bit errors: 2206178071 
+maximum bit errors: 2204802470 
+maximum bit errors: 2205105711 
+maximum bit errors: 2205434398 
+ BER 0: 0.017231
+127:      BW: 50.2506 MidAtt: 8.453 MaxAtt: 3.69178 phase:3.79399
+Load WaveShaper Sucessful
+maximum bit errors: 2208418588 
+maximum bit errors: 2207507593 
+maximum bit errors: 2206132267 
+maximum bit errors: 2205851640 
+maximum bit errors: 2205439018 
+ BER 0: 0.0172383
+128:      BW: 50.1078 MidAtt: 8.55994 MaxAtt: 3.64965 phase:3.83956
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 2205309297 
+maximum bit errors: 2204205881 
+maximum bit errors: 2204852034 
+maximum bit errors: 2202999891 
+ BER 0: 0.0172249
+129:      BW: 50.3859 MidAtt: 8.27017 MaxAtt: 3.75081 phase:3.8485
+Load WaveShaper Sucessful
+maximum bit errors: 2214207334 
+maximum bit errors: 2211901900 
+maximum bit errors: 2210612285 
+maximum bit errors: 2213122226 
+maximum bit errors: 2211959985 
+ BER 0: 0.0172838
+130:      BW: 50.1111 MidAtt: 8.50599 MaxAtt: 3.72948 phase:3.84827
+Load WaveShaper Sucessful
+maximum bit errors: 2185021605 
+maximum bit errors: 2184729060 
+maximum bit errors: 2185187488 
+maximum bit errors: 2186377218 
+maximum bit errors: 2186930216 
+ BER 0: 0.0170744
+131:      BW: 87.7223 MidAtt: 12.7411 MaxAtt: 10.3572 phase:3.76307
+Load WaveShaper Sucessful
+maximum bit errors: 827935350 
+maximum bit errors: 821151514 
+maximum bit errors: 819807413 
+maximum bit errors: 821296351 
+maximum bit errors: 821091440 
+ BER 0: 0.00641547
+132:      BW: 87.6851 MidAtt: 13.4608 MaxAtt: 10.0326 phase:3.98096
+Load WaveShaper Sucessful
+maximum bit errors: 1119772379 
+maximum bit errors: 1123655602 
+maximum bit errors: 1121785724 
+maximum bit errors: 1115341515 
+maximum bit errors: 1120413211 
+ BER 0: 0.00875513
+133:      BW: 87.1772 MidAtt: 13.0329 MaxAtt: 10.3478 phase:3.87981
+Load WaveShaper Sucessful
+maximum bit errors: 810857738 
+LOS/LOL!!!
+maximum bit errors: 810028430 
+maximum bit errors: 810799936 
+maximum bit errors: 809119059 
+ BER 0: 0.00633252
+134:      BW: 88.0167 MidAtt: 13.1682 MaxAtt: 10.3444 phase:3.93873
+Load WaveShaper Sucessful
+maximum bit errors: 767837157 
+maximum bit errors: 767389641 
+maximum bit errors: 768846794 
+maximum bit errors: 766048128 
+maximum bit errors: 766983388 
+ BER 0: 0.00599534
+135:      BW: 83.1845 MidAtt: 4.29752 MaxAtt: 16.6345 phase:1.07275
+Load WaveShaper Sucessful
+maximum bit errors: 2783608542 
+maximum bit errors: 2778669468 
+maximum bit errors: 2776927996 
+maximum bit errors: 2778309830 
+maximum bit errors: 2777800767 
+ BER 0: 0.0217052
+136:      BW: 83.4012 MidAtt: 4.41115 MaxAtt: 16.6613 phase:1.05053
+Load WaveShaper Sucessful
+maximum bit errors: 2737298814 
+maximum bit errors: 2737922591 
+maximum bit errors: 2731241409 
+maximum bit errors: 2725301310 
+maximum bit errors: 281473401031527 
+ BER 0: 0.0213856
+137:      BW: 83.1534 MidAtt: 4.24534 MaxAtt: 16.5528 phase:1.09032
+Load WaveShaper Sucessful
+maximum bit errors: 2779044605 
+maximum bit errors: 2824492767 
+maximum bit errors: 2794940025 
+maximum bit errors: 2816204729 
+maximum bit errors: 2791629425 
+ BER 0: 0.0218822
+138:      BW: 83.0805 MidAtt: 4.2132 MaxAtt: 16.6196 phase:1.04703
+Load WaveShaper Sucessful
+maximum bit errors: 2816667186 
+maximum bit errors: 2833034572 
+maximum bit errors: 2816491014 
+maximum bit errors: 2814767981 
+maximum bit errors: 2827274925 
+ BER 0: 0.0220324
+139:      BW: 63.197 MidAtt: 1.89793 MaxAtt: 5.61387 phase:1.90443
+Load WaveShaper Sucessful
+maximum bit errors: 2024778551 
+maximum bit errors: 2025207747 
+LOS/LOL!!!
+maximum bit errors: 2024510529 
+maximum bit errors: 2025123743 
+ BER 0: 0.0158206
+140:      BW: 63.8646 MidAtt: 2.00496 MaxAtt: 5.38878 phase:1.97254
+Load WaveShaper Sucessful
+maximum bit errors: 1812428707 
+maximum bit errors: 1807475928 
+maximum bit errors: 1809994528 
+maximum bit errors: 1817352086 
+maximum bit errors: 1812756224 
+ BER 0: 0.0141541
+141:      BW: 63.4727 MidAtt: 2.10096 MaxAtt: 5.47246 phase:2.07585
+Load WaveShaper Sucessful
+maximum bit errors: 1838819700 
+maximum bit errors: 1855537484 
+maximum bit errors: 1847941970 
+maximum bit errors: 1845873571 
+maximum bit errors: 1847161699 
+ BER 0: 0.0144296
+142:      BW: 63.3589 MidAtt: 2.07762 MaxAtt: 5.4678 phase:1.94041
+Load WaveShaper Sucessful
+maximum bit errors: 1888975432 
+maximum bit errors: 1879562215 
+maximum bit errors: 1876552627 
+maximum bit errors: 1872354583 
+maximum bit errors: 281472556606749 
+ BER 0: 0.0147084
+143:      BW: 70.3025 MidAtt: 2.23991 MaxAtt: 1.56435 phase:2.49366
+Load WaveShaper Sucessful
+maximum bit errors: 1756028897 
+maximum bit errors: 1752501070 
+maximum bit errors: 1754533578 
+maximum bit errors: 1753486857 
+maximum bit errors: 1750473642 
+ BER 0: 0.0136993
+144:      BW: 69.4674 MidAtt: 2.18134 MaxAtt: 1.75521 phase:2.47825
+Load WaveShaper Sucessful
+maximum bit errors: 1692003461 
+maximum bit errors: 1689644487 
+maximum bit errors: 1688088094 
+maximum bit errors: 1691564012 
+maximum bit errors: 1693786580 
+ BER 0: 0.0132115
+145:      BW: 69.721 MidAtt: 2.04617 MaxAtt: 1.70832 phase:2.5198
+Load WaveShaper Sucessful
+maximum bit errors: 1715286312 
+maximum bit errors: 1716641521 
+maximum bit errors: 1717606705 
+maximum bit errors: 1712111908 
+maximum bit errors: 1716496693 
+ BER 0: 0.0134074
+146:      BW: 69.9295 MidAtt: 2.29098 MaxAtt: 1.67114 phase:2.46419
+Load WaveShaper Sucessful
+maximum bit errors: 4294904312 
+maximum bit errors: 1790004570 
+maximum bit errors: 1788273568 
+maximum bit errors: 1791820548 
+maximum bit errors: 1792755134 
+ BER 0: 0.0139963
+147:      BW: 75.7931 MidAtt: 8.88041 MaxAtt: 14.6368 phase:5.59087
+Load WaveShaper Sucessful
+maximum bit errors: 796953792 
+maximum bit errors: 793435823 
+maximum bit errors: 797243064 
+maximum bit errors: 797655856 
+LOS/LOL!!!
+ BER 0: 0.00622878
+148:      BW: 76.202 MidAtt: 8.83925 MaxAtt: 14.8261 phase:5.51088
+Load WaveShaper Sucessful
+maximum bit errors: 1111111461 
+LOS/LOL!!!
+maximum bit errors: 1103425838 
+maximum bit errors: 1110342537 
+maximum bit errors: 1110447563 
+ BER 0: 0.00867683
+149:      BW: 75.7645 MidAtt: 9.53276 MaxAtt: 14.9089 phase:5.4656
+Load WaveShaper Sucessful
+maximum bit errors: 626444855 
+maximum bit errors: 621936958 
+maximum bit errors: 627140770 
+maximum bit errors: 281471306792883 
+maximum bit errors: 621972061 
+ BER 0: 0.0048791
+150:      BW: 75.5935 MidAtt: 8.83906 MaxAtt: 14.8579 phase:5.45351
+Load WaveShaper Sucessful
+maximum bit errors: 957641721 
+maximum bit errors: 951845812 
+maximum bit errors: 955349298 
+maximum bit errors: 953410003 
+maximum bit errors: 957371932 
+ BER 0: 0.00746388
+151:      BW: 72.5011 MidAtt: 14.2695 MaxAtt: 7.57041 phase:0.694699
+Load WaveShaper Sucessful
+maximum bit errors: 2167818796 
+maximum bit errors: 2167782012 
+maximum bit errors: 2167455835 
+maximum bit errors: 2167358588 
+maximum bit errors: 2167697928 
+ BER 0: 0.0169347
+152:      BW: 55.9778 MidAtt: 12.0452 MaxAtt: 0.707636 phase:4.12748
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 2176929676 
+maximum bit errors: 195071265 
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0280387
+153:      BW: 76.2126 MidAtt: 9.47943 MaxAtt: 14.7857 phase:5.47202
+Load WaveShaper Sucessful
+maximum bit errors: 781850624 
+maximum bit errors: 785568993 
+maximum bit errors: 786416174 
+maximum bit errors: 787800493 
+maximum bit errors: 786799011 
+ BER 0: 0.00614267
+154:      BW: 74.8791 MidAtt: 9.71493 MaxAtt: 14.8364 phase:5.39342
+Load WaveShaper Sucessful
+maximum bit errors: 748254224 
+maximum bit errors: 750147229 
+maximum bit errors: 746085901 
+maximum bit errors: 744812712 
+maximum bit errors: 746204166 
+ BER 0: 0.00583475
+155:      BW: 76.1133 MidAtt: 9.47858 MaxAtt: 14.677 phase:5.52906
+Load WaveShaper Sucessful
+maximum bit errors: 754555964 
+maximum bit errors: 754676034 
+maximum bit errors: 759006847 
+maximum bit errors: 761963645 
+maximum bit errors: 758872376 
+ BER 0: 0.00591811
+156:      BW: 75.3773 MidAtt: 9.60506 MaxAtt: 14.8389 phase:5.51032
+Load WaveShaper Sucessful
+maximum bit errors: 636997048 
+maximum bit errors: 634052888 
+maximum bit errors: 637407704 
+maximum bit errors: 634708796 
+maximum bit errors: 634762174 
+ BER 0: 0.00496476
+157:      BW: 69.52 MidAtt: 2.08389 MaxAtt: 1.97135 phase:2.43062
+Load WaveShaper Sucessful
+maximum bit errors: 1623102091 
+maximum bit errors: 1618847810 
+maximum bit errors: 1619937432 
+maximum bit errors: 1614662809 
+maximum bit errors: 1616176546 
+ BER 0: 0.0126431
+158:      BW: 69.8029 MidAtt: 2.1085 MaxAtt: 1.8412 phase:2.52353
+Load WaveShaper Sucessful
+maximum bit errors: 1697469279 
+maximum bit errors: 1694547898 
+maximum bit errors: 1691897371 
+maximum bit errors: 1691248892 
+maximum bit errors: 1692525143 
+ BER 0: 0.0132265
+159:      BW: 69.5348 MidAtt: 2.34453 MaxAtt: 1.60309 phase:2.41098
+Load WaveShaper Sucessful
+maximum bit errors: 1823719401 
+maximum bit errors: 1827173300 
+maximum bit errors: 1829373579 
+maximum bit errors: 1825623071 
+maximum bit errors: 1830861422 
+ BER 0: 0.0142765
+160:      BW: 69.175 MidAtt: 2.34211 MaxAtt: 1.72666 phase:2.44962
+Load WaveShaper Sucessful
+maximum bit errors: 1753975584 
+maximum bit errors: 1745593966 
+maximum bit errors: 1746849001 
+maximum bit errors: 1747678163 
+maximum bit errors: 1748374011 
+ BER 0: 0.0136534
+161:      BW: 51.03 MidAtt: 5.0217 MaxAtt: 2.56088 phase:5.99972
+Load WaveShaper Sucessful
+maximum bit errors: 2141753230 
+maximum bit errors: 2141400182 
+maximum bit errors: 2142822532 
+maximum bit errors: 2140707526 
+maximum bit errors: 2141842888 
+ BER 0: 0.0167318
+162:      BW: 50.9247 MidAtt: 5.05815 MaxAtt: 2.35468 phase:5.95578
+Load WaveShaper Sucessful
+maximum bit errors: 2292762893 
+maximum bit errors: 2291821576 
+maximum bit errors: 2293949248 
+maximum bit errors: 2293564085 
+maximum bit errors: 2291651374 
+ BER 0: 0.0179118
+163:      BW: 51.1571 MidAtt: 5.33015 MaxAtt: 2.58018 phase:5.97733
+Load WaveShaper Sucessful
+maximum bit errors: 2173980802 
+maximum bit errors: 2174032793 
+maximum bit errors: 2171614499 
+maximum bit errors: 2173017758 
+maximum bit errors: 2168675213 
+ BER 0: 0.0169756
+164:      BW: 51.0739 MidAtt: 5.23316 MaxAtt: 2.4353 phase:5.9338
+Load WaveShaper Sucessful
+maximum bit errors: 56818122362594 
+maximum bit errors: 2184246273 
+maximum bit errors: 2182238185 
+maximum bit errors: 2180464628 
+LOS/LOL!!!
+ BER 0: 0.0225568
+165:      BW: 72.5538 MidAtt: 14.0317 MaxAtt: 7.67165 phase:0.744489
+Load WaveShaper Sucessful
+maximum bit errors: 2207023713 
+maximum bit errors: 2205424721 
+maximum bit errors: 2208771626 
+maximum bit errors: 2208225804 
+maximum bit errors: 2207855486 
+ BER 0: 0.0172477
+166:      BW: 72.4013 MidAtt: 14.1999 MaxAtt: 7.5046 phase:0.714348
+Load WaveShaper Sucessful
+maximum bit errors: 281472845473400 
+maximum bit errors: 2163476661 
+maximum bit errors: 2163992874 
+maximum bit errors: 2164238875 
+maximum bit errors: 2163610069 
+ BER 0: 0.016868
+167:      BW: 72.8503 MidAtt: 14.102 MaxAtt: 7.49871 phase:0.670376
+Load WaveShaper Sucessful
+maximum bit errors: 2157189361 
+maximum bit errors: 2157198012 
+maximum bit errors: 2156916416 
+maximum bit errors: 2157035175 
+maximum bit errors: 2157254673 
+ BER 0: 0.0168527
+168:      BW: 72.5254 MidAtt: 14.4172 MaxAtt: 7.60584 phase:0.639382
+Load WaveShaper Sucessful
+maximum bit errors: 2161987573 
+maximum bit errors: 2161871528 
+maximum bit errors: 2161427690 
+maximum bit errors: 2161600825 
+maximum bit errors: 2162137903 
+ BER 0: 0.0168892
+169:      BW: 55.5158 MidAtt: 11.9174 MaxAtt: 0.699924 phase:4.19227
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 1174585543 
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0335544
+170:      BW: 55.7735 MidAtt: 12.0534 MaxAtt: 0.799039 phase:4.12276
+Load WaveShaper Sucessful
+maximum bit errors: 1201998059 
+LOS/LOL!!!
+LOS/LOL!!!
+maximum bit errors: 53842913 
+maximum bit errors: 155515304 
+ BER 0: 0.01472
+171:      BW: 55.8994 MidAtt: 12.0574 MaxAtt: 0.620158 phase:4.16662
+Load WaveShaper Sucessful
+maximum bit errors: 1742152766 
+LOS/LOL!!!
+LOS/LOL!!!
+maximum bit errors: 2105472551 
+LOS/LOL!!!
+ BER 0: 0.0278526
+172:      BW: 56.1092 MidAtt: 11.9938 MaxAtt: 0.685426 phase:4.15324
+Load WaveShaper Sucessful
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0335544
+173:      BW: 75.2141 MidAtt: 9.48436 MaxAtt: 14.7563 phase:5.54982
+Load WaveShaper Sucessful
+maximum bit errors: 694375999 
+maximum bit errors: 693908938 
+maximum bit errors: 698647792 
+maximum bit errors: 700700995 
+maximum bit errors: 698810331 
+ BER 0: 0.00544748
+174:      BW: 76.0194 MidAtt: 9.5256 MaxAtt: 14.8817 phase:5.60286
+Load WaveShaper Sucessful
+maximum bit errors: 814675417 
+maximum bit errors: 813378786 
+maximum bit errors: 814397309 
+maximum bit errors: 816395243 
+maximum bit errors: 813407582 
+ BER 0: 0.00636063
+175:      BW: 76.4053 MidAtt: 9.48665 MaxAtt: 14.7044 phase:5.48487
+Load WaveShaper Sucessful
+maximum bit errors: 729795377 
+maximum bit errors: 281471407505966 
+maximum bit errors: 729960718 
+maximum bit errors: 723376364 
+maximum bit errors: 723645827 
+ BER 0: 0.00570708
+176:      BW: 76.1444 MidAtt: 9.49402 MaxAtt: 14.706 phase:5.38067
+Load WaveShaper Sucessful
+maximum bit errors: 771905176 
+maximum bit errors: 772951448 
+maximum bit errors: 772382310 
+maximum bit errors: 767709097 
+maximum bit errors: 769426701 
+ BER 0: 0.0060253
+177:      BW: 69.1293 MidAtt: 2.14292 MaxAtt: 2.10549 phase:2.39276
+Load WaveShaper Sucessful
+maximum bit errors: 1561824192 
+maximum bit errors: 1562106711 
+maximum bit errors: 1564435466 
+maximum bit errors: 1558380474 
+maximum bit errors: 1563176452 
+ BER 0: 0.012206
+178:      BW: 69.8615 MidAtt: 2.19752 MaxAtt: 2.06962 phase:2.47072
+Load WaveShaper Sucessful
+maximum bit errors: 1618356372 
+maximum bit errors: 1616566776 
+maximum bit errors: 1615050821 
+maximum bit errors: 1619340870 
+maximum bit errors: 1617579430 
+ BER 0: 0.0126367
+179:      BW: 69.6725 MidAtt: 2.16529 MaxAtt: 2.10035 phase:2.47883
+Load WaveShaper Sucessful
+maximum bit errors: 1585849814 
+maximum bit errors: 1587077421 
+maximum bit errors: 1587652456 
+maximum bit errors: 1589885175 
+maximum bit errors: 1586022212 
+ BER 0: 0.0123978
+180:      BW: 69.6629 MidAtt: 1.99721 MaxAtt: 1.88685 phase:2.41441
+Load WaveShaper Sucessful
+maximum bit errors: 1631192369 
+maximum bit errors: 1631691472 
+maximum bit errors: 1629451179 
+maximum bit errors: 1628486796 
+maximum bit errors: 1628497669 
+ BER 0: 0.0127321
+181:      BW: 51.0327 MidAtt: 5.06095 MaxAtt: 2.54331 phase:6.03068
+Load WaveShaper Sucessful
+maximum bit errors: 30456 
+maximum bit errors: 2139713812 
+maximum bit errors: 2138798751 
+maximum bit errors: 2139185141 
+maximum bit errors: 2140053483 
+ BER 0: 0.0167128
+182:      BW: 51.014 MidAtt: 5.01913 MaxAtt: 2.6833 phase:6.01282
+Load WaveShaper Sucessful
+maximum bit errors: 2123366521 
+maximum bit errors: 2122893287 
+maximum bit errors: 2122329311 
+maximum bit errors: 2122297051 
+maximum bit errors: 2122864451 
+ BER 0: 0.0165836
+183:      BW: 50.7333 MidAtt: 5.11745 MaxAtt: 2.49888 phase:6.01107
+Load WaveShaper Sucessful
+maximum bit errors: 2248808380 
+maximum bit errors: 2248454246 
+maximum bit errors: 2249488712 
+maximum bit errors: 2250262240 
+maximum bit errors: 2250260453 
+ BER 0: 0.0175744
+184:      BW: 51.231 MidAtt: 4.99995 MaxAtt: 2.55188 phase:5.9705
+Load WaveShaper Sucessful
+maximum bit errors: 2153198758 
+maximum bit errors: 2152703788 
+maximum bit errors: 2151254082 
+maximum bit errors: 2150800672 
+maximum bit errors: 2150349101 
+ BER 0: 0.0168093
+185:      BW: 72.6828 MidAtt: 14.0578 MaxAtt: 7.4477 phase:0.630989
+Load WaveShaper Sucessful
+maximum bit errors: 2158516757 
+maximum bit errors: 2158425962 
+maximum bit errors: 2158652124 
+maximum bit errors: 2158560896 
+maximum bit errors: 2158505376 
+ BER 0: 0.0168635
+186:      BW: 72.9095 MidAtt: 14.1446 MaxAtt: 7.36113 phase:0.714895
+Load WaveShaper Sucessful
+maximum bit errors: 2180197652 
+maximum bit errors: 2180631482 
+maximum bit errors: 2180919216 
+maximum bit errors: 2180403800 
+maximum bit errors: 2180407432 
+ BER 0: 0.017035
+187:      BW: 73.1576 MidAtt: 14.1601 MaxAtt: 7.35884 phase:0.667396
+Load WaveShaper Sucessful
+maximum bit errors: 2208408769 
+maximum bit errors: 2206911576 
+maximum bit errors: 2207047836 
+maximum bit errors: 2206347148 
+maximum bit errors: 2206734616 
+ BER 0: 0.0172414
+188:      BW: 72.8605 MidAtt: 14.0573 MaxAtt: 7.55082 phase:0.708486
+Load WaveShaper Sucessful
+maximum bit errors: 2158802073 
+maximum bit errors: 2158905666 
+maximum bit errors: 2158687418 
+maximum bit errors: 2158566374 
+maximum bit errors: 2158728706 
+ BER 0: 0.0168652
+189:      BW: 55.9914 MidAtt: 11.9149 MaxAtt: 0.817229 phase:4.10154
+Load WaveShaper Sucessful
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0335544
+190:      BW: 55.7804 MidAtt: 12.1374 MaxAtt: 0.719625 phase:4.06984
+Load WaveShaper Sucessful
+LOS/LOL!!!
+LOS/LOL!!!
+maximum bit errors: 213434936 
+maximum bit errors: 570974319 
+maximum bit errors: 1101588109 
+ BER 0: 0.0155404
+191:      BW: 56.1195 MidAtt: 11.9608 MaxAtt: 0.951716 phase:4.1317
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 1304464441 
+maximum bit errors: 1178530438 
+maximum bit errors: 545788489 
+maximum bit errors: 1755267828 
+ BER 0: 0.0110371
+192:      BW: 55.625 MidAtt: 12.1498 MaxAtt: 0.775555 phase:4.14513
+Load WaveShaper Sucessful
+maximum bit errors: 72862052 
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0335544
+193:      BW: 82.169 MidAtt: 2.27025 MaxAtt: 9.22267 phase:5.54356
+Load WaveShaper Sucessful
+maximum bit errors: 1969204416 
+maximum bit errors: 1968964715 
+maximum bit errors: 1971793870 
+maximum bit errors: 1971708615 
+maximum bit errors: 1978726063 
+ BER 0: 0.0153977
+194:      BW: 52.775 MidAtt: 0.94469 MaxAtt: 18.0865 phase:2.87859
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0335544
+195:      BW: 75.033 MidAtt: 9.47444 MaxAtt: 15.2383 phase:5.4417
+Load WaveShaper Sucessful
+maximum bit errors: 887110552 
+maximum bit errors: 885652353 
+maximum bit errors: 884168675 
+maximum bit errors: 885089956 
+maximum bit errors: 886761406 
+ BER 0: 0.00692058
+196:      BW: 76.011 MidAtt: 9.60186 MaxAtt: 15.2534 phase:5.44045
+Load WaveShaper Sucessful
+maximum bit errors: 914344071 
+maximum bit errors: 911143219 
+maximum bit errors: 915244871 
+maximum bit errors: 913476281 
+maximum bit errors: 915457417 
+ BER 0: 0.0071434
+197:      BW: 76.9568 MidAtt: 9.48145 MaxAtt: 15.135 phase:5.50623
+Load WaveShaper Sucessful
+maximum bit errors: 704448617 
+maximum bit errors: 706491260 
+maximum bit errors: 706478637 
+maximum bit errors: 709553389 
+maximum bit errors: 705130839 
+ BER 0: 0.00551589
+198:      BW: 76.1286 MidAtt: 9.49664 MaxAtt: 15.1378 phase:5.3728
+Load WaveShaper Sucessful
+maximum bit errors: 899497767 
+maximum bit errors: 902710306 
+maximum bit errors: 899889924 
+maximum bit errors: 903929399 
+maximum bit errors: 898116987 
+ BER 0: 0.00703671
+199:      BW: 55.8258 MidAtt: 12.1177 MaxAtt: 0.888061 phase:4.14231
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 343771077 
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0335544
+200:      BW: 56.1743 MidAtt: 11.7665 MaxAtt: 0.781304 phase:4.13917
+Load WaveShaper Sucessful
+maximum bit errors: 1085861696 
+LOS/LOL!!!
+maximum bit errors: 2341780023 
+maximum bit errors: 339751601 
+maximum bit errors: 211655509 
+ BER 0: 0.00981092
+201:      BW: 79.9343 MidAtt: 12.7907 MaxAtt: 13.8654 phase:2.16832
+Load WaveShaper Sucessful
+maximum bit errors: 127306115 
+maximum bit errors: 127679824 
+maximum bit errors: 128259297 
+maximum bit errors: 127755032 
+maximum bit errors: 128349823 
+ BER 0: 0.000999204
+202:      BW: 69.7377 MidAtt: 11.8629 MaxAtt: 2.07757 phase:3.34389
+Load WaveShaper Sucessful
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+maximum bit errors: 782787803 
+maximum bit errors: 296307993 
+ BER 0: 0.0244081
+203:      BW: 84.099 MidAtt: 7.60668 MaxAtt: 18.7794 phase:5.31927
+Load WaveShaper Sucessful
+maximum bit errors: 2250734162 
+maximum bit errors: 2251068130 
+maximum bit errors: 2249333228 
+maximum bit errors: 2250481538 
+maximum bit errors: 2250925670 
+ BER 0: 0.0175837
+204:      BW: 72.518 MidAtt: 1.00655 MaxAtt: 12.6513 phase:6.02859
+Load WaveShaper Sucessful
+maximum bit errors: 2976185004 
+maximum bit errors: 2995714858 
+maximum bit errors: 3002453161 
+maximum bit errors: 2974172732 
+maximum bit errors: 3004115504 
+ BER 0: 0.0233707
+205:      BW: 62.4991 MidAtt: 16.9478 MaxAtt: 16.1942 phase:5.02642
+Load WaveShaper Sucessful
+maximum bit errors: 438727784 
+maximum bit errors: 440973452 
+maximum bit errors: 438146149 
+maximum bit errors: 441926951 
+maximum bit errors: 438772021 
+ BER 0: 0.00343352
+206:      BW: 50.2383 MidAtt: 7.82707 MaxAtt: 10.7984 phase:3.36482
+Load WaveShaper Sucessful
+maximum bit errors: 2611887729 
+maximum bit errors: 2611130207 
+maximum bit errors: 2610517823 
+maximum bit errors: 2608458353 
+maximum bit errors: 2611457530 
+ BER 0: 0.0203987
+207:      BW: 61.7985 MidAtt: 16.8904 MaxAtt: 3.88634 phase:4.23581
+Load WaveShaper Sucessful
+maximum bit errors: 133211893 
+maximum bit errors: 1606017574 
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.026552
+208:      BW: 63.906 MidAtt: 18.4492 MaxAtt: 18.2253 phase:6.09684
+Load WaveShaper Sucessful
+maximum bit errors: 513346882 
+maximum bit errors: 518277481 
+maximum bit errors: 537790911 
+maximum bit errors: 518575807 
+maximum bit errors: 515113444 
+ BER 0: 0.00404158
+209:      BW: 97.0024 MidAtt: 9.54898 MaxAtt: 7.12556 phase:5.71245
+Load WaveShaper Sucessful
+maximum bit errors: 1927431814 
+maximum bit errors: 1926650789 
+maximum bit errors: 1921114563 
+maximum bit errors: 1922585182 
+maximum bit errors: 1922203427 
+ BER 0: 0.0150298
+210:      BW: 68.8523 MidAtt: 13.4209 MaxAtt: 3.85697 phase:0.612016
+Load WaveShaper Sucessful
+maximum bit errors: 875486128 
+maximum bit errors: 1333611669 
+maximum bit errors: 2185242385 
+LOS/LOL!!!
+maximum bit errors: 1739374376 
+ BER 0: 0.0136933
+211:      BW: 80.6841 MidAtt: 12.561 MaxAtt: 14.1602 phase:2.19037
+Load WaveShaper Sucessful
+maximum bit errors: 137936299 
+maximum bit errors: 138164088 
+maximum bit errors: 138658532 
+maximum bit errors: 138879957 
+maximum bit errors: 139088125 
+ BER 0: 0.00108256
+212:      BW: 80.1594 MidAtt: 12.797 MaxAtt: 13.7223 phase:2.15939
+Load WaveShaper Sucessful
+maximum bit errors: 140100474 
+maximum bit errors: 140086636 
+maximum bit errors: 140585823 
+maximum bit errors: 140281819 
+maximum bit errors: 140833765 
+ BER 0: 0.00109627
+213:      BW: 80.1895 MidAtt: 12.7761 MaxAtt: 13.8651 phase:2.17377
+Load WaveShaper Sucessful
+maximum bit errors: 139607245 
+maximum bit errors: 139403524 
+maximum bit errors: 138823073 
+maximum bit errors: 138830238 
+maximum bit errors: 138912175 
+ BER 0: 0.00108632
+214:      BW: 79.4818 MidAtt: 12.7365 MaxAtt: 13.9456 phase:2.14484
+Load WaveShaper Sucessful
+maximum bit errors: 134129889 
+maximum bit errors: 133988880 
+maximum bit errors: 133846810 
+maximum bit errors: 134720406 
+maximum bit errors: 134490110 
+ BER 0: 0.00104846
+215:      BW: 69.8292 MidAtt: 11.9143 MaxAtt: 1.97364 phase:3.33055
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 1124763718 
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0335544
+216:      BW: 69.7175 MidAtt: 11.8946 MaxAtt: 2.16039 phase:3.31266
+Load WaveShaper Sucessful
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0335544
+217:      BW: 70.0188 MidAtt: 11.892 MaxAtt: 2.08447 phase:3.37577
+Load WaveShaper Sucessful
+maximum bit errors: 494003341 
+LOS/LOL!!!
+maximum bit errors: 1861656232 
+maximum bit errors: 2853825596 
+maximum bit errors: 1906854949 
+ BER 0: 0.0172457
+218:      BW: 69.8596 MidAtt: 11.819 MaxAtt: 2.11282 phase:3.31514
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 2058205967 
+maximum bit errors: 246965042 
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0277295
+219:      BW: 83.8555 MidAtt: 7.57146 MaxAtt: 18.8472 phase:5.31993
+Load WaveShaper Sucessful
+maximum bit errors: 2210489310 
+maximum bit errors: 2209400798 
+maximum bit errors: 2208783988 
+maximum bit errors: 2209042155 
+maximum bit errors: 2207301024 
+ BER 0: 0.0172584
+220:      BW: 84.1251 MidAtt: 7.59227 MaxAtt: 18.6947 phase:5.32404
+Load WaveShaper Sucessful
+maximum bit errors: 2227671910 
+maximum bit errors: 2226469284 
+maximum bit errors: 2223557564 
+maximum bit errors: 2225469347 
+maximum bit errors: 2223644610 
+ BER 0: 0.0173843
+221:      BW: 84.3508 MidAtt: 7.76141 MaxAtt: 18.7525 phase:5.29621
+Load WaveShaper Sucessful
+maximum bit errors: 2199005539 
+maximum bit errors: 2199356472 
+maximum bit errors: 2200019724 
+maximum bit errors: 2199284131 
+maximum bit errors: 2198783247 
+ BER 0: 0.0171814
+222:      BW: 84.407 MidAtt: 7.62574 MaxAtt: 18.6973 phase:5.29974
+Load WaveShaper Sucessful
+maximum bit errors: 2200043462 
+maximum bit errors: 2199450253 
+maximum bit errors: 2199448522 
+maximum bit errors: 2200024735 
+maximum bit errors: 2200124213 
+ BER 0: 0.0171862
+223:      BW: 72.265 MidAtt: 1.01258 MaxAtt: 12.8124 phase:6.01603
+Load WaveShaper Sucessful
+maximum bit errors: 3029709010 
+maximum bit errors: 3006042777 
+LOS/LOL!!!
+maximum bit errors: 3017111641 
+maximum bit errors: 2987281140 
+ BER 0: 0.0235752
+224:      BW: 72.4481 MidAtt: 0.965121 MaxAtt: 12.6023 phase:6.01656
+Load WaveShaper Sucessful
+maximum bit errors: 2988202185 
+maximum bit errors: 2985670257 
+maximum bit errors: 2996547749 
+maximum bit errors: 2992232691 
+maximum bit errors: 4294936786 
+ BER 0: 0.0233776
+225:      BW: 72.2938 MidAtt: 1.12992 MaxAtt: 12.5791 phase:5.96887
+Load WaveShaper Sucessful
+maximum bit errors: 2989992119 
+maximum bit errors: 2987941769 
+maximum bit errors: 2993173813 
+maximum bit errors: 2960190391 
+maximum bit errors: 2973438604 
+ BER 0: 0.0233109
+226:      BW: 72.7682 MidAtt: 1.03248 MaxAtt: 12.5817 phase:6.04607
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 2980022956 
+maximum bit errors: 2977002923 
+maximum bit errors: 2977824222 
+maximum bit errors: 2976342264 
+ BER 0: 0.0232678
+227:      BW: 62.5384 MidAtt: 16.983 MaxAtt: 15.9178 phase:4.99418
+Load WaveShaper Sucessful
+maximum bit errors: 396847895 
+maximum bit errors: 396712638 
+maximum bit errors: 397619253 
+maximum bit errors: 395018393 
+maximum bit errors: 396385594 
+ BER 0: 0.00309882
+228:      BW: 61.9428 MidAtt: 16.8539 MaxAtt: 16.0085 phase:5.12143
+Load WaveShaper Sucessful
+maximum bit errors: 328290230 
+maximum bit errors: 327783682 
+maximum bit errors: 326717257 
+maximum bit errors: 325897347 
+maximum bit errors: 328843971 
+ BER 0: 0.00255935
+229:      BW: 62.7005 MidAtt: 17.0276 MaxAtt: 16.1086 phase:4.98842
+Load WaveShaper Sucessful
+maximum bit errors: 401886457 
+maximum bit errors: 396301787 
+maximum bit errors: 399285972 
+maximum bit errors: 1991 
+maximum bit errors: 394716539 
+ BER 0: 0.00309975
+230:      BW: 62.2801 MidAtt: 16.817 MaxAtt: 16.1657 phase:4.98106
+Load WaveShaper Sucessful
+maximum bit errors: 507634943 
+maximum bit errors: 506921379 
+maximum bit errors: 509206013 
+maximum bit errors: 511756603 
+maximum bit errors: 507011766 
+ BER 0: 0.00396837
+231:      BW: 50.3422 MidAtt: 7.77537 MaxAtt: 10.9338 phase:3.37945
+Load WaveShaper Sucessful
+maximum bit errors: 2635516452 
+maximum bit errors: 2634300100 
+maximum bit errors: 2632552770 
+maximum bit errors: 2632299491 
+maximum bit errors: 2631646941 
+ BER 0: 0.0205707
+232:      BW: 50.4794 MidAtt: 7.77291 MaxAtt: 10.7671 phase:3.38825
+Load WaveShaper Sucessful
+maximum bit errors: 2570877289 
+maximum bit errors: 2569425446 
+maximum bit errors: 2567022973 
+maximum bit errors: 2568623400 
+maximum bit errors: 2567239665 
+ BER 0: 0.0200659
+233:      BW: 50.5449 MidAtt: 7.65631 MaxAtt: 10.852 phase:3.38951
+Load WaveShaper Sucessful
+maximum bit errors: 2591112724 
+maximum bit errors: 2594503177 
+maximum bit errors: 2589502629 
+maximum bit errors: 2598609519 
+maximum bit errors: 2592779797 
+ BER 0: 0.0202562
+234:      BW: 50.0574 MidAtt: 7.90186 MaxAtt: 10.7216 phase:3.40277
+Load WaveShaper Sucessful
+maximum bit errors: 2617625127 
+maximum bit errors: 2616426447 
+maximum bit errors: 2617494467 
+maximum bit errors: 2613832096 
+maximum bit errors: 2617302055 
+ BER 0: 0.0204459
+235:      BW: 61.7061 MidAtt: 16.901 MaxAtt: 3.82485 phase:4.21997
+Load WaveShaper Sucessful
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0335544
+236:      BW: 61.7303 MidAtt: 16.8101 MaxAtt: 3.97834 phase:4.21494
+Load WaveShaper Sucessful
+LOS/LOL!!!
+LOS/LOL!!!
+maximum bit errors: 1169869040 
+maximum bit errors: 1930669745 
+maximum bit errors: 2184613775 
+ BER 0: 0.0219017
+237:      BW: 61.9929 MidAtt: 16.8526 MaxAtt: 3.89943 phase:4.23524
+Load WaveShaper Sucessful
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0335544
+238:      BW: 61.805 MidAtt: 16.8697 MaxAtt: 3.71366 phase:4.21848
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 156210095 
+maximum bit errors: 17317050 
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0227764
+239:      BW: 64.6416 MidAtt: 18.8519 MaxAtt: 18.4336 phase:6.10614
+Load WaveShaper Sucessful
+maximum bit errors: 668841193 
+maximum bit errors: 630473356 
+maximum bit errors: 632182741 
+maximum bit errors: 639445655 
+maximum bit errors: 640232812 
+ BER 0: 0.0049788
+240:      BW: 63.454 MidAtt: 18.2827 MaxAtt: 17.9842 phase:6.11075
+Load WaveShaper Sucessful
+maximum bit errors: 504991603 
+maximum bit errors: 500788679 
+maximum bit errors: 505896486 
+maximum bit errors: 502957627 
+maximum bit errors: 502746482 
+ BER 0: 0.0039341
+241:      BW: 63.5057 MidAtt: 18.4391 MaxAtt: 18.144 phase:6.07041
+Load WaveShaper Sucessful
+maximum bit errors: 540604404 
+maximum bit errors: 531534044 
+maximum bit errors: 533656843 
+maximum bit errors: 532285473 
+maximum bit errors: 551990866 
+ BER 0: 0.00418372
+242:      BW: 63.3527 MidAtt: 18.6461 MaxAtt: 18.7196 phase:6.01613
+Load WaveShaper Sucessful
+maximum bit errors: 709550347 
+maximum bit errors: 698984340 
+maximum bit errors: 692327272 
+maximum bit errors: 684971622 
+maximum bit errors: 683966459 
+ BER 0: 0.00540699
+243:      BW: 97.2261 MidAtt: 9.59741 MaxAtt: 7.1394 phase:5.70234
+Load WaveShaper Sucessful
+maximum bit errors: 1954298563 
+maximum bit errors: 1949881473 
+maximum bit errors: 1954323653 
+maximum bit errors: 26525 
+maximum bit errors: 1955480580 
+ BER 0: 0.0152565
+244:      BW: 97.2214 MidAtt: 9.67164 MaxAtt: 6.96568 phase:5.76904
+Load WaveShaper Sucessful
+maximum bit errors: 2053564817 
+maximum bit errors: 2051245237 
+maximum bit errors: 2050597706 
+maximum bit errors: 2049134612 
+maximum bit errors: 2053646195 
+ BER 0: 0.0160297
+245:      BW: 96.9738 MidAtt: 9.63608 MaxAtt: 7.27414 phase:5.75705
+Load WaveShaper Sucessful
+maximum bit errors: 1887182477 
+maximum bit errors: 1887514347 
+maximum bit errors: 1884800842 
+maximum bit errors: 1887641100 
+maximum bit errors: 1887028264 
+ BER 0: 0.0147441
+246:      BW: 97.028 MidAtt: 9.5689 MaxAtt: 7.2186 phase:5.7137
+Load WaveShaper Sucessful
+maximum bit errors: 1881583542 
+maximum bit errors: 1875625942 
+maximum bit errors: 1880365971 
+maximum bit errors: 1878190300 
+maximum bit errors: 1875928026 
+ BER 0: 0.0146731
+247:      BW: 68.7791 MidAtt: 13.3331 MaxAtt: 3.86177 phase:0.666568
+Load WaveShaper Sucessful
+maximum bit errors: 2318188198 
+maximum bit errors: 1697396826 
+maximum bit errors: 2233403280 
+maximum bit errors: 2382652427 
+LOS/LOL!!!
+ BER 0: 0.0180579
+248:      BW: 69.2885 MidAtt: 13.4431 MaxAtt: 3.79098 phase:0.585771
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 2081721329 
+maximum bit errors: 2303441904 
+maximum bit errors: 1972291553 
+maximum bit errors: 1736418653 
+ BER 0: 0.0165559
+249:      BW: 68.6479 MidAtt: 13.5703 MaxAtt: 3.86824 phase:0.601885
+Load WaveShaper Sucessful
+maximum bit errors: 2534058525 
+maximum bit errors: 2458347859 
+maximum bit errors: 2048457249 
+LOS/LOL!!!
+maximum bit errors: 2038428277 
+ BER 0: 0.0183356
+250:      BW: 68.9219 MidAtt: 13.506 MaxAtt: 4.04134 phase:0.624271
+Load WaveShaper Sucessful
+maximum bit errors: 2431099968 
+maximum bit errors: 2362229430 
+maximum bit errors: 2148769687 
+maximum bit errors: 2430616368 
+LOS/LOL!!!
+ BER 0: 0.0188124
+251:      BW: 80.5131 MidAtt: 12.9649 MaxAtt: 14.1057 phase:2.06781
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 129494497 
+maximum bit errors: 129890529 
+maximum bit errors: 130964140 
+maximum bit errors: 130419270 
+ BER 0: 0.00101894
+252:      BW: 79.4987 MidAtt: 12.6864 MaxAtt: 13.719 phase:2.1373
+Load WaveShaper Sucessful
+maximum bit errors: 133676563 
+maximum bit errors: 134289271 
+maximum bit errors: 133516225 
+maximum bit errors: 133312511 
+maximum bit errors: 133307394 
+ BER 0: 0.00104298
+253:      BW: 80.9218 MidAtt: 12.6688 MaxAtt: 13.9714 phase:2.12994
+Load WaveShaper Sucessful
+maximum bit errors: 132901844 
+maximum bit errors: 132430204 
+maximum bit errors: 131344465 
+maximum bit errors: 131745509 
+maximum bit errors: 132730647 
+ BER 0: 0.00103361
+254:      BW: 79.0757 MidAtt: 13.1531 MaxAtt: 13.9123 phase:2.22425
+Load WaveShaper Sucessful
+maximum bit errors: 127839626 
+maximum bit errors: 128448822 
+maximum bit errors: 128807558 
+maximum bit errors: 128060058 
+maximum bit errors: 128824749 
+ BER 0: 0.00100343
+255:      BW: 69.9292 MidAtt: 11.957 MaxAtt: 2.22911 phase:3.34592
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 1183865043 
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0335544
+256:      BW: 69.5439 MidAtt: 11.863 MaxAtt: 1.91591 phase:3.40042
+Load WaveShaper Sucessful
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0335544
+257:      BW: 69.888 MidAtt: 11.7864 MaxAtt: 2.13369 phase:3.34725
+Load WaveShaper Sucessful
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+maximum bit errors: 1892189795 
+LOS/LOL!!!
+ BER 0: 0.0335544
+258:      BW: 70.2604 MidAtt: 11.8919 MaxAtt: 2.1325 phase:3.39074
+Load WaveShaper Sucessful
+maximum bit errors: 3162062705 
+maximum bit errors: 1495272655 
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0306042
+259:      BW: 84.2561 MidAtt: 7.7284 MaxAtt: 18.8168 phase:5.31368
+Load WaveShaper Sucessful
+maximum bit errors: 2208158535 
+maximum bit errors: 33314 
+maximum bit errors: 2209193189 
+maximum bit errors: 2208269553 
+maximum bit errors: 2209804571 
+ BER 0: 0.0172542
+260:      BW: 84.2458 MidAtt: 7.81543 MaxAtt: 18.7582 phase:5.34966
+Load WaveShaper Sucessful
+maximum bit errors: 2198384261 
+maximum bit errors: 2198163877 
+maximum bit errors: 2198098309 
+maximum bit errors: 2198134799 
+maximum bit errors: 2198215433 
+ BER 0: 0.0171732
+261:      BW: 84.5299 MidAtt: 7.75379 MaxAtt: 18.6125 phase:5.27798
+Load WaveShaper Sucessful
+maximum bit errors: 2209932885 
+maximum bit errors: 2212377304 
+maximum bit errors: 2211139180 
+maximum bit errors: 2210729900 
+maximum bit errors: 2211871993 
+ BER 0: 0.0172754
+262:      BW: 84.2503 MidAtt: 7.79849 MaxAtt: 18.8955 phase:5.3263
+Load WaveShaper Sucessful
+maximum bit errors: 2208800889 
+maximum bit errors: 2207329581 
+maximum bit errors: 281472889669433 
+maximum bit errors: 2208234622 
+maximum bit errors: 2206810053 
+ BER 0: 0.0172517
+263:      BW: 72.772 MidAtt: 1.05146 MaxAtt: 12.4472 phase:6.03404
+Load WaveShaper Sucessful
+maximum bit errors: 2964437205 
+maximum bit errors: 2926081648 
+maximum bit errors: 2954638921 
+maximum bit errors: 2935061296 
+maximum bit errors: 2939152983 
+ BER 0: 0.0229918
+264:      BW: 72.5773 MidAtt: 0.92472 MaxAtt: 12.6247 phase:6.04651
+Load WaveShaper Sucessful
+maximum bit errors: 2985239969 
+maximum bit errors: 2987912672 
+maximum bit errors: 2946527684 
+maximum bit errors: 2967602533 
+maximum bit errors: 2995851380 
+ BER 0: 0.0232832
+265:      BW: 73.246 MidAtt: 1.02018 MaxAtt: 12.73 phase:6.08006
+Load WaveShaper Sucessful
+maximum bit errors: 2959838954 
+maximum bit errors: 2959900080 
+maximum bit errors: 2952875080 
+maximum bit errors: 2952536235 
+maximum bit errors: 2925608856 
+ BER 0: 0.0230866
+266:      BW: 72.9476 MidAtt: 1.1128 MaxAtt: 12.6834 phase:6.05128
+Load WaveShaper Sucessful
+maximum bit errors: 2973713745 
+maximum bit errors: 2974403512 
+maximum bit errors: 2978398614 
+maximum bit errors: 2986259031 
+maximum bit errors: 2980910814 
+ BER 0: 0.0232649
+267:      BW: 62.2032 MidAtt: 16.8117 MaxAtt: 15.8329 phase:5.26156
+Load WaveShaper Sucessful
+maximum bit errors: 473323785 
+maximum bit errors: 472223900 
+maximum bit errors: 472485375 
+maximum bit errors: 474471063 
+maximum bit errors: 474397742 
+ BER 0: 0.00369846
+268:      BW: 61.406 MidAtt: 16.9276 MaxAtt: 15.8529 phase:5.06913
+Load WaveShaper Sucessful
+maximum bit errors: 407606880 
+maximum bit errors: 407080716 
+maximum bit errors: 404955000 
+maximum bit errors: 407055414 
+maximum bit errors: 404084947 
+ BER 0: 0.00317472
+269:      BW: 60.8727 MidAtt: 17.138 MaxAtt: 16.3184 phase:5.14353
+Load WaveShaper Sucessful
+maximum bit errors: 527633924 
+maximum bit errors: 525978102 
+maximum bit errors: 528212482 
+maximum bit errors: 524071005 
+maximum bit errors: 527927311 
+ BER 0: 0.00411859
+270:      BW: 61.977 MidAtt: 17.1174 MaxAtt: 16.0913 phase:5.08916
+Load WaveShaper Sucessful
+maximum bit errors: 334162236 
+maximum bit errors: 331427823 
+maximum bit errors: 331972465 
+maximum bit errors: 329688502 
+maximum bit errors: 331001353 
+ BER 0: 0.00258959
+271:      BW: 50.5795 MidAtt: 7.72715 MaxAtt: 10.7425 phase:3.34822
+Load WaveShaper Sucessful
+maximum bit errors: 2564864291 
+maximum bit errors: 2563685338 
+maximum bit errors: 2565188663 
+maximum bit errors: 2562338524 
+maximum bit errors: 2560993914 
+ BER 0: 0.0200284
+272:      BW: 50.294 MidAtt: 7.60317 MaxAtt: 10.698 phase:3.38075
+Load WaveShaper Sucessful
+maximum bit errors: 2628885664 
+maximum bit errors: 2627379246 
+maximum bit errors: 2625397249 
+maximum bit errors: 2629413940 
+maximum bit errors: 2628930567 
+ BER 0: 0.0205344
+273:      BW: 50.6155 MidAtt: 7.73445 MaxAtt: 10.7865 phase:3.40508
+Load WaveShaper Sucessful
+maximum bit errors: 2568770260 
+maximum bit errors: 2562153025 
+maximum bit errors: 2564816895 
+maximum bit errors: 2563060477 
+maximum bit errors: 2562983925 
+ BER 0: 0.0200283
+274:      BW: 50.5711 MidAtt: 7.7817 MaxAtt: 10.8271 phase:3.39794
+Load WaveShaper Sucessful
+maximum bit errors: 2571456175 
+maximum bit errors: 2568645691 
+maximum bit errors: 2568799226 
+maximum bit errors: 2571333102 
+maximum bit errors: 2565997304 
+ BER 0: 0.0200749
+275:      BW: 61.8627 MidAtt: 16.8059 MaxAtt: 4.05184 phase:4.19674
+Load WaveShaper Sucessful
+LOS/LOL!!!
+LOS/LOL!!!
+maximum bit errors: 297255961 
+maximum bit errors: 744457625 
+maximum bit errors: 797972703 
+ BER 0: 0.0152016
+276:      BW: 61.3465 MidAtt: 16.8095 MaxAtt: 3.84075 phase:4.22787
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 1385699992 
+maximum bit errors: 247338509 
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0259782
+277:      BW: 61.6715 MidAtt: 16.7567 MaxAtt: 3.89827 phase:4.18845
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 577139175 
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0335544
+278:      BW: 61.6794 MidAtt: 16.8501 MaxAtt: 3.9317 phase:4.23384
+Load WaveShaper Sucessful
+maximum bit errors: 347893178 
+maximum bit errors: 1163925227 
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0254007
+279:      BW: 64.2066 MidAtt: 18.3501 MaxAtt: 17.8263 phase:6.10402
+Load WaveShaper Sucessful
+maximum bit errors: 542017044 
+maximum bit errors: 548715888 
+maximum bit errors: 555409439 
+maximum bit errors: 547908943 
+maximum bit errors: 556502278 
+ BER 0: 0.00430217
+280:      BW: 63.5544 MidAtt: 18.5593 MaxAtt: 17.8492 phase:6.11678
+Load WaveShaper Sucessful
+maximum bit errors: 497255687 
+maximum bit errors: 494835434 
+maximum bit errors: 510150206 
+maximum bit errors: 494560616 
+maximum bit errors: 497098127 
+ BER 0: 0.0038781
+281:      BW: 63.3786 MidAtt: 18.6304 MaxAtt: 18.2273 phase:5.98744
+Load WaveShaper Sucessful
+maximum bit errors: 590696213 
+maximum bit errors: 589415284 
+maximum bit errors: 584791485 
+maximum bit errors: 608818350 
+maximum bit errors: 591599456 
+ BER 0: 0.00461383
+282:      BW: 64.0887 MidAtt: 18.1508 MaxAtt: 18.0709 phase:6.17014
+Load WaveShaper Sucessful
+maximum bit errors: 610098085 
+maximum bit errors: 281471290932680 
+maximum bit errors: 611131102 
+maximum bit errors: 607341916 
+maximum bit errors: 606417502 
+ BER 0: 0.00474237
+283:      BW: 96.7999 MidAtt: 9.63895 MaxAtt: 7.18446 phase:5.73367
+Load WaveShaper Sucessful
+maximum bit errors: 1935741616 
+maximum bit errors: 1930559545 
+maximum bit errors: 1930373184 
+maximum bit errors: 1929680070 
+maximum bit errors: 1932942420 
+ BER 0: 0.0150882
+284:      BW: 97.0772 MidAtt: 9.59973 MaxAtt: 7.21579 phase:5.66626
+Load WaveShaper Sucessful
+maximum bit errors: 1927841293 
+maximum bit errors: 1932250974 
+maximum bit errors: 1929326736 
+maximum bit errors: 1931494157 
+maximum bit errors: 1931386015 
+ BER 0: 0.0150839
+285:      BW: 97.0768 MidAtt: 9.69189 MaxAtt: 7.23645 phase:5.63749
+Load WaveShaper Sucessful
+maximum bit errors: 1938341772 
+maximum bit errors: 1941176440 
+maximum bit errors: 1939289013 
+maximum bit errors: 1937686259 
+maximum bit errors: 1941648670 
+ BER 0: 0.0151531
+286:      BW: 97.0522 MidAtt: 9.41457 MaxAtt: 7.16583 phase:5.6985
+Load WaveShaper Sucessful
+maximum bit errors: 1866473023 
+maximum bit errors: 1867071692 
+maximum bit errors: 1873300408 
+maximum bit errors: 1869907705 
+maximum bit errors: 1869180508 
+ BER 0: 0.0145994
+287:      BW: 69.0784 MidAtt: 13.4029 MaxAtt: 3.77725 phase:0.619226
+Load WaveShaper Sucessful
+maximum bit errors: 2189493181 
+LOS/LOL!!!
+maximum bit errors: 2356140950 
+maximum bit errors: 2456568615 
+maximum bit errors: 2264019246 
+ BER 0: 0.018429
+288:      BW: 69.2353 MidAtt: 13.5313 MaxAtt: 3.75426 phase:0.638362
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 1569122109 
+maximum bit errors: 891299480 
+maximum bit errors: 2343539538 
+LOS/LOL!!!
+ BER 0: 0.021374
+289:      BW: 68.5382 MidAtt: 13.2934 MaxAtt: 3.93583 phase:0.634413
+Load WaveShaper Sucessful
+maximum bit errors: 2747332006 
+maximum bit errors: 2621880377 
+maximum bit errors: 2618757362 
+maximum bit errors: 2376823983 
+maximum bit errors: 2602108411 
+ BER 0: 0.0204238
+290:      BW: 68.7669 MidAtt: 13.4206 MaxAtt: 3.68952 phase:0.616875
+Load WaveShaper Sucessful
+maximum bit errors: 2577439887 
+LOS/LOL!!!
+maximum bit errors: 2750057503 
+maximum bit errors: 2197297562 
+maximum bit errors: 2448445200 
+ BER 0: 0.0202498
+291:      BW: 94.5841 MidAtt: 12.0917 MaxAtt: 12.4835 phase:1.70024
+Load WaveShaper Sucessful
+maximum bit errors: 235999251 
+maximum bit errors: 236522564 
+maximum bit errors: 235897574 
+maximum bit errors: 236720801 
+maximum bit errors: 236098858 
+ BER 0: 0.00184537
+292:      BW: 69.4516 MidAtt: 7.79195 MaxAtt: 0.909146 phase:1.44481
+Load WaveShaper Sucessful
+maximum bit errors: 2738466448 
+maximum bit errors: 2734769469 
+maximum bit errors: 2741944296 
+maximum bit errors: 2773681505 
+maximum bit errors: 2789453088 
+ BER 0: 0.021495
+293:      BW: 94.9335 MidAtt: 16.0719 MaxAtt: 10.881 phase:2.97731
+Load WaveShaper Sucessful
+maximum bit errors: 1122914870 
+maximum bit errors: 1119351267 
+maximum bit errors: 1121063803 
+maximum bit errors: 1116130179 
+maximum bit errors: 1119257559 
+ BER 0: 0.00874915
+294:      BW: 81.5706 MidAtt: 12.6369 MaxAtt: 13.7653 phase:2.11145
+Load WaveShaper Sucessful
+maximum bit errors: 131436571 
+maximum bit errors: 132650619 
+maximum bit errors: 132747924 
+maximum bit errors: 133003093 
+maximum bit errors: 132981038 
+ BER 0: 0.00103745
+295:      BW: 79.8292 MidAtt: 12.5664 MaxAtt: 13.8232 phase:2.02261
+Load WaveShaper Sucessful
+maximum bit errors: 131408984 
+maximum bit errors: 131510208 
+LOS/LOL!!!
+maximum bit errors: 131378154 
+maximum bit errors: 131900325 
+ BER 0: 0.00102818
+296:      BW: 80.2885 MidAtt: 12.6729 MaxAtt: 13.6599 phase:2.09783
+Load WaveShaper Sucessful
+maximum bit errors: 139142662 
+maximum bit errors: 138950793 
+maximum bit errors: 138817474 
+maximum bit errors: 137895806 
+maximum bit errors: 138823473 
+ BER 0: 0.00108487
+297:      BW: 79.806 MidAtt: 12.445 MaxAtt: 13.8089 phase:2.21123
+Load WaveShaper Sucessful
+maximum bit errors: 133002200 
+maximum bit errors: 132616660 
+maximum bit errors: 133101225 
+maximum bit errors: 134432454 
+maximum bit errors: 134547071 
+ BER 0: 0.00104306
+298:      BW: 62.0433 MidAtt: 17.1811 MaxAtt: 16.1076 phase:5.15528
+Load WaveShaper Sucessful
+maximum bit errors: 571656156 
+maximum bit errors: 574361312 
+maximum bit errors: 573002372 
+maximum bit errors: 573019843 
+maximum bit errors: 575191900 
+ BER 0: 0.00448017
+299:      BW: 61.7062 MidAtt: 17.074 MaxAtt: 16.0834 phase:5.06417
+Load WaveShaper Sucessful
+maximum bit errors: 381069347 
+maximum bit errors: 281471065426675 
+maximum bit errors: 377994211 
+maximum bit errors: 378042300 
+maximum bit errors: 380204146 
+ BER 0: 0.00295351
+300:      BW: 62.7647 MidAtt: 16.929 MaxAtt: 15.4756 phase:5.04848
+Load WaveShaper Sucessful
+maximum bit errors: 321252911 
+maximum bit errors: 321650340 
+maximum bit errors: 324153273 
+maximum bit errors: 323975407 
+maximum bit errors: 322723196 
+ BER 0: 0.00252174
+301:      BW: 60.6657 MidAtt: 13.6204 MaxAtt: 19.851 phase:4.02817
+Load WaveShaper Sucessful
+maximum bit errors: 2406929356 
+maximum bit errors: 2409703780 
+maximum bit errors: 2399809267 
+maximum bit errors: 2388853875 
+maximum bit errors: 2398806686 
+ BER 0: 0.0187644
+302:      BW: 90.6679 MidAtt: 5.11542 MaxAtt: 1.28564 phase:4.78513
+Load WaveShaper Sucessful
+maximum bit errors: 2180907993 
+maximum bit errors: 2179758633 
+maximum bit errors: 2178264954 
+maximum bit errors: 2177676879 
+maximum bit errors: 2178496390 
+ BER 0: 0.0170222
+303:      BW: 88.7623 MidAtt: 17.877 MaxAtt: 10.5845 phase:1.13584
+Load WaveShaper Sucessful
+maximum bit errors: 1648863622 
+maximum bit errors: 1648407547 
+maximum bit errors: 1642143266 
+maximum bit errors: 1646211631 
+maximum bit errors: 1638209093 
+ BER 0: 0.0128562
+304:      BW: 75.0911 MidAtt: 19.3444 MaxAtt: 16.842 phase:2.51529
+Load WaveShaper Sucessful
+maximum bit errors: 495657682 
+maximum bit errors: 494165602 
+maximum bit errors: 496859170 
+maximum bit errors: 527827343 
+maximum bit errors: 492774552 
+ BER 0: 0.00387157
+305:      BW: 52.9082 MidAtt: 18.5059 MaxAtt: 0.942422 phase:1.33905
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0335544
+306:      BW: 97.5267 MidAtt: 14.6416 MaxAtt: 10.578 phase:1.96161
+Load WaveShaper Sucessful
+maximum bit errors: 1119245650 
+maximum bit errors: 1112328727 
+maximum bit errors: 1112612753 
+maximum bit errors: 1116187886 
+maximum bit errors: 1112956121 
+ BER 0: 0.00870249
+307:      BW: 97.6521 MidAtt: 10.6926 MaxAtt: 12.1601 phase:5.93967
+Load WaveShaper Sucessful
+maximum bit errors: 290393049 
+maximum bit errors: 292576907 
+maximum bit errors: 291763220 
+maximum bit errors: 291344120 
+maximum bit errors: 291656637 
+ BER 0: 0.00227803
+308:      BW: 52.1573 MidAtt: 16.8033 MaxAtt: 3.79808 phase:4.07759
+Load WaveShaper Sucessful
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+maximum bit errors: 392513054 
+ BER 0: 0.0335544
+309:      BW: 81.3776 MidAtt: 8.88434 MaxAtt: 15.4225 phase:3.81164
+Load WaveShaper Sucessful
+maximum bit errors: 672546715 
+maximum bit errors: 673520817 
+maximum bit errors: 675845060 
+maximum bit errors: 678097555 
+LOS/LOL!!!
+ BER 0: 0.00527985
+310:      BW: 79.6888 MidAtt: 2.09193 MaxAtt: 12.7685 phase:6.10399
+Load WaveShaper Sucessful
+maximum bit errors: 2623972543 
+maximum bit errors: 2623554210 
+maximum bit errors: 2623530415 
+maximum bit errors: 2622409166 
+maximum bit errors: 2622599374 
+ BER 0: 0.020494
+311:      BW: 60.7706 MidAtt: 13.8528 MaxAtt: 19.87 phase:4.01601
+Load WaveShaper Sucessful
+maximum bit errors: 2285740689 
+maximum bit errors: 2283490162 
+maximum bit errors: 2295373751 
+maximum bit errors: 2286680738 
+maximum bit errors: 2285374403 
+ BER 0: 0.0178588
+312:      BW: 60.9727 MidAtt: 13.5929 MaxAtt: 19.8826 phase:3.9548
+Load WaveShaper Sucessful
+maximum bit errors: 2285531606 
+maximum bit errors: 2284111000 
+maximum bit errors: 2284336075 
+maximum bit errors: 2288168191 
+maximum bit errors: 2291220587 
+ BER 0: 0.0178595
+313:      BW: 60.3245 MidAtt: 13.6327 MaxAtt: 19.9168 phase:4.00686
+Load WaveShaper Sucessful
+maximum bit errors: 2520638723 
+maximum bit errors: 2521298884 
+maximum bit errors: 2517777763 
+maximum bit errors: 2524241247 
+maximum bit errors: 2522298646 
+ BER 0: 0.0196985
+314:      BW: 61.2539 MidAtt: 13.5829 MaxAtt: 19.9278 phase:4.11494
+Load WaveShaper Sucessful
+maximum bit errors: 2218872178 
+maximum bit errors: 2213152184 
+maximum bit errors: 2220491848 
+maximum bit errors: 2218295212 
+maximum bit errors: 2217386033 
+ BER 0: 0.0173296
+315:      BW: 89.6559 MidAtt: 5.1828 MaxAtt: 1.24836 phase:4.82493
+Load WaveShaper Sucessful
+maximum bit errors: 2220983009 
+maximum bit errors: 2219931973 
+maximum bit errors: 2219319412 
+maximum bit errors: 2217330471 
+maximum bit errors: 2217238346 
+ BER 0: 0.0173348
+316:      BW: 90.3578 MidAtt: 5.18935 MaxAtt: 1.14639 phase:4.76463
+Load WaveShaper Sucessful
+maximum bit errors: 2206173788 
+maximum bit errors: 2204923457 
+maximum bit errors: 2203877587 
+maximum bit errors: 2204871601 
+maximum bit errors: 2205038052 
+ BER 0: 0.0172261
+317:      BW: 90.3999 MidAtt: 5.18289 MaxAtt: 1.38008 phase:4.7996
+Load WaveShaper Sucessful
+maximum bit errors: 2166509662 
+maximum bit errors: 2166832853 
+maximum bit errors: 2166404914 
+maximum bit errors: 2165885795 
+maximum bit errors: 2165254081 
+ BER 0: 0.016924
+318:      BW: 90.2889 MidAtt: 5.2699 MaxAtt: 1.26919 phase:4.80152
+Load WaveShaper Sucessful
+maximum bit errors: 2195464389 
+maximum bit errors: 2194618591 
+maximum bit errors: 2195111187 
+maximum bit errors: 2195424066 
+maximum bit errors: 2194564850 
+ BER 0: 0.0171488
+319:      BW: 88.9786 MidAtt: 17.7709 MaxAtt: 10.7718 phase:1.14836
+Load WaveShaper Sucessful
+maximum bit errors: 1493097181 
+maximum bit errors: 1492194064 
+maximum bit errors: 1489843908 
+maximum bit errors: 1488280003 
+maximum bit errors: 1485111477 
+ BER 0: 0.0116415
+320:      BW: 88.4291 MidAtt: 17.7981 MaxAtt: 10.6067 phase:1.12182
+Load WaveShaper Sucessful
+maximum bit errors: 1569155895 
+maximum bit errors: 1571608272 
+maximum bit errors: 1563417488 
+maximum bit errors: 1563526749 
+maximum bit errors: 1564064505 
+ BER 0: 0.0122311
+321:      BW: 88.4197 MidAtt: 18.0016 MaxAtt: 10.5251 phase:1.05101
+Load WaveShaper Sucessful
+maximum bit errors: 1664730721 
+maximum bit errors: 1668927358 
+maximum bit errors: 1666762477 
+maximum bit errors: 1664760020 
+maximum bit errors: 1667544922 
+ BER 0: 0.0130184
+322:      BW: 88.899 MidAtt: 18.2122 MaxAtt: 10.5824 phase:1.15073
+Load WaveShaper Sucessful
+maximum bit errors: 1748997763 
+maximum bit errors: 1748048441 
+maximum bit errors: 1751706029 
+maximum bit errors: 1750370701 
+maximum bit errors: 1749592142 
+ BER 0: 0.0136692
+323:      BW: 75.4097 MidAtt: 19.3009 MaxAtt: 16.6444 phase:2.53915
+Load WaveShaper Sucessful
+maximum bit errors: 471848602 
+maximum bit errors: 483435068 
+maximum bit errors: 463815734 
+maximum bit errors: 459506100 
+maximum bit errors: 464184998 
+ BER 0: 0.00364544
+324:      BW: 74.479 MidAtt: 19.1964 MaxAtt: 16.639 phase:2.5413
+Load WaveShaper Sucessful
+maximum bit errors: 454633811 
+maximum bit errors: 433558184 
+maximum bit errors: 281471120908921 
+maximum bit errors: 429977813 
+maximum bit errors: 431242354 
+ BER 0: 0.00341639
+325:      BW: 74.8253 MidAtt: 19.0986 MaxAtt: 16.5965 phase:2.45899
+Load WaveShaper Sucessful
+maximum bit errors: 454350828 
+maximum bit errors: 458414067 
+maximum bit errors: 460696358 
+maximum bit errors: 479383095 
+maximum bit errors: 455460119 
+ BER 0: 0.00357961
+326:      BW: 75.1556 MidAtt: 19.1062 MaxAtt: 16.8979 phase:2.58134
+Load WaveShaper Sucessful
+maximum bit errors: 453835438 
+maximum bit errors: 462267335 
+maximum bit errors: 461230025 
+maximum bit errors: 459642360 
+maximum bit errors: 458050477 
+ BER 0: 0.00359094
+327:      BW: 53.1563 MidAtt: 18.4689 MaxAtt: 0.9961 phase:1.3424
+Load WaveShaper Sucessful
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+maximum bit errors: 4294967295 
+LOS/LOL!!!
+ BER 0: 0.0335544
+328:      BW: 52.7249 MidAtt: 18.5509 MaxAtt: 1.04612 phase:1.34412
+Load WaveShaper Sucessful
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0335544
+329:      BW: 53.0003 MidAtt: 18.4667 MaxAtt: 0.907939 phase:1.33584
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0335544
+330:      BW: 52.9944 MidAtt: 18.6464 MaxAtt: 0.88537 phase:1.36807
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 4294967295 
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0335544
+331:      BW: 97.761 MidAtt: 14.4363 MaxAtt: 10.6396 phase:1.9488
+Load WaveShaper Sucessful
+maximum bit errors: 1073793277 
+maximum bit errors: 1073744879 
+maximum bit errors: 1072965910 
+maximum bit errors: 1072187771 
+maximum bit errors: 1072678291 
+ BER 0: 0.00838383
+332:      BW: 97.6891 MidAtt: 14.6963 MaxAtt: 10.8318 phase:1.97729
+Load WaveShaper Sucessful
+maximum bit errors: 983595917 
+maximum bit errors: 984410202 
+maximum bit errors: 989606808 
+maximum bit errors: 984848154 
+maximum bit errors: 989384239 
+ BER 0: 0.0077048
+333:      BW: 97.844 MidAtt: 14.7955 MaxAtt: 10.5779 phase:1.94977
+Load WaveShaper Sucessful
+maximum bit errors: 1176521015 
+maximum bit errors: 1178807806 
+maximum bit errors: 1179570232 
+maximum bit errors: 1175529989 
+LOS/LOL!!!
+ BER 0: 0.00920547
+334:      BW: 97.4449 MidAtt: 14.5236 MaxAtt: 10.3784 phase:1.90278
+Load WaveShaper Sucessful
+maximum bit errors: 1221400671 
+maximum bit errors: 1215202564 
+maximum bit errors: 1213965727 
+maximum bit errors: 1218112144 
+maximum bit errors: 1215207998 
+ BER 0: 0.00950136
+335:      BW: 96.8746 MidAtt: 10.4257 MaxAtt: 12.3408 phase:5.91612
+Load WaveShaper Sucessful
+maximum bit errors: 266003822 
+maximum bit errors: 266296834 
+maximum bit errors: 266188145 
+maximum bit errors: 266663729 
+maximum bit errors: 265954021 
+ BER 0: 0.0020794
+336:      BW: 97.8362 MidAtt: 10.6295 MaxAtt: 12.3968 phase:5.96404
+Load WaveShaper Sucessful
+maximum bit errors: 266642126 
+maximum bit errors: 265935438 
+maximum bit errors: 267163733 
+maximum bit errors: 266071302 
+maximum bit errors: 266835148 
+ BER 0: 0.00208216
+337:      BW: 98.1891 MidAtt: 10.9146 MaxAtt: 12.4242 phase:5.95687
+Load WaveShaper Sucessful
+maximum bit errors: 256200633 
+maximum bit errors: 257481066 
+maximum bit errors: 256185536 
+maximum bit errors: 256726881 
+maximum bit errors: 256196972 
+ BER 0: 0.00200293
+338:      BW: 97.8743 MidAtt: 10.4447 MaxAtt: 12.212 phase:5.97439
+Load WaveShaper Sucessful
+maximum bit errors: 288301964 
+maximum bit errors: 289836756 
+maximum bit errors: 288746803 
+maximum bit errors: 289472906 
+maximum bit errors: 289549975 
+ BER 0: 0.00225982
+339:      BW: 52.3165 MidAtt: 16.8486 MaxAtt: 3.92811 phase:4.07898
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 580718699 
+maximum bit errors: 1141837984 
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0253432
+340:      BW: 52.2368 MidAtt: 16.6415 MaxAtt: 3.89967 phase:4.09789
+Load WaveShaper Sucessful
+maximum bit errors: 1636569271 
+LOS/LOL!!!
+LOS/LOL!!!
+maximum bit errors: 1211956647 
+LOS/LOL!!!
+ BER 0: 0.0266315
+341:      BW: 52.081 MidAtt: 16.7208 MaxAtt: 3.79517 phase:4.07925
+Load WaveShaper Sucessful
+maximum bit errors: 1818209448 
+maximum bit errors: 1690402359 
+LOS/LOL!!!
+LOS/LOL!!!
+maximum bit errors: 809015360 
+ BER 0: 0.0203218
+342:      BW: 52.1384 MidAtt: 16.6856 MaxAtt: 3.75827 phase:4.0511
+Load WaveShaper Sucessful
+maximum bit errors: 1815387638 
+LOS/LOL!!!
+LOS/LOL!!!
+maximum bit errors: 1406946955 
+LOS/LOL!!!
+ BER 0: 0.0270972
+343:      BW: 80.5337 MidAtt: 8.89161 MaxAtt: 15.3775 phase:3.88388
+Load WaveShaper Sucessful
+maximum bit errors: 785367055 
+maximum bit errors: 786914743 
+maximum bit errors: 786009661 
+maximum bit errors: 786952569 
+LOS/LOL!!!
+ BER 0: 0.00614551
+344:      BW: 81.1273 MidAtt: 9.29493 MaxAtt: 15.6943 phase:3.79702
+Load WaveShaper Sucessful
+maximum bit errors: 592307382 
+maximum bit errors: 588461059 
+maximum bit errors: 592204396 
+maximum bit errors: 599354252 
+maximum bit errors: 592567500 
+ BER 0: 0.00462781
+345:      BW: 81.1518 MidAtt: 8.91504 MaxAtt: 15.6253 phase:3.85137
+Load WaveShaper Sucessful
+maximum bit errors: 715103319 
+maximum bit errors: 56161705639170 
+maximum bit errors: 712188831 
+maximum bit errors: 712059654 
+maximum bit errors: 712552859 
+ BER 0: 0.00557245
+346:      BW: 80.9666 MidAtt: 9.0416 MaxAtt: 15.5632 phase:3.80526
+Load WaveShaper Sucessful
+maximum bit errors: 697332989 
+maximum bit errors: 696846879 
+maximum bit errors: 699476181 
+maximum bit errors: 698595481 
+maximum bit errors: 699281385 
+ BER 0: 0.00545628
+347:      BW: 79.9836 MidAtt: 2.01028 MaxAtt: 12.6059 phase:6.07163
+Load WaveShaper Sucessful
+maximum bit errors: 2566947321 
+maximum bit errors: 2566987641 
+maximum bit errors: 2570088495 
+maximum bit errors: 2569077068 
+maximum bit errors: 2567431436 
+ BER 0: 0.0200612
+348:      BW: 79.2165 MidAtt: 1.9841 MaxAtt: 12.8449 phase:6.10726
+Load WaveShaper Sucessful
+maximum bit errors: 2684332693 
+maximum bit errors: 2683393896 
+maximum bit errors: 2683672517 
+maximum bit errors: 2682768933 
+maximum bit errors: 2684182823 
+ BER 0: 0.0209668
+349:      BW: 79.5116 MidAtt: 2.13729 MaxAtt: 12.8644 phase:6.07421
+Load WaveShaper Sucessful
+maximum bit errors: 2639870956 
+maximum bit errors: 2639013229 
+maximum bit errors: 2637979375 
+maximum bit errors: 2640526656 
+maximum bit errors: 2637079245 
+ BER 0: 0.0206168
+350:      BW: 80.0916 MidAtt: 2.24012 MaxAtt: 12.8577 phase:6.15015
+Load WaveShaper Sucessful
+maximum bit errors: 2667551790 
+maximum bit errors: 2669006958 
+maximum bit errors: 2669338101 
+maximum bit errors: 2667600363 
+maximum bit errors: 2666846313 
+ BER 0: 0.0208442
+351:      BW: 61.359 MidAtt: 13.4921 MaxAtt: 19.7294 phase:4.1622
+Load WaveShaper Sucessful
+maximum bit errors: 2192965631 
+maximum bit errors: 2191922964 
+maximum bit errors: 2191922387 
+maximum bit errors: 2191979230 
+maximum bit errors: 2191826062 
+ BER 0: 0.0171245
+352:      BW: 61.0378 MidAtt: 13.6133 MaxAtt: 19.844 phase:4.14851
+Load WaveShaper Sucessful
+maximum bit errors: 2260781867 
+maximum bit errors: 2259712034 
+maximum bit errors: 2259308546 
+maximum bit errors: 2260571335 
+maximum bit errors: 2260659118 
+ BER 0: 0.0176587
+353:      BW: 61.3249 MidAtt: 13.8294 MaxAtt: 19.8307 phase:4.13356
+Load WaveShaper Sucessful
+maximum bit errors: 2197954615 
+maximum bit errors: 2197784254 
+maximum bit errors: 2196321471 
+maximum bit errors: 2198062550 
+maximum bit errors: 2196166703 
+ BER 0: 0.0171668
+354:      BW: 60.7312 MidAtt: 13.6729 MaxAtt: 19.8439 phase:4.11682
+Load WaveShaper Sucessful
+maximum bit errors: 2325137987 
+maximum bit errors: 2325085154 
+maximum bit errors: 2323092604 
+maximum bit errors: 2322776354 
+maximum bit errors: 2325862538 
+ BER 0: 0.0181597
+355:      BW: 90.2078 MidAtt: 5.19066 MaxAtt: 1.31709 phase:4.77055
+Load WaveShaper Sucessful
+maximum bit errors: 2178426799 
+maximum bit errors: 2179121198 
+maximum bit errors: 2175975447 
+maximum bit errors: 2174691358 
+maximum bit errors: 2174772461 
+ BER 0: 0.0170031
+356:      BW: 90.5102 MidAtt: 5.16743 MaxAtt: 1.45927 phase:4.7544
+Load WaveShaper Sucessful
+maximum bit errors: 2156554348 
+maximum bit errors: 2157282177 
+maximum bit errors: 2155484667 
+maximum bit errors: 2155728502 
+maximum bit errors: 2155950317 
+ BER 0: 0.0168444
+357:      BW: 90.505 MidAtt: 5.37463 MaxAtt: 1.43429 phase:4.85574
+Load WaveShaper Sucessful
+maximum bit errors: 2193690770 
+maximum bit errors: 2194071220 
+maximum bit errors: 2193676256 
+maximum bit errors: 2194875755 
+maximum bit errors: 2193081337 
+ BER 0: 0.0171392
+358:      BW: 90.186 MidAtt: 5.05212 MaxAtt: 1.54333 phase:4.77742
+Load WaveShaper Sucessful
+maximum bit errors: 2124527431 
+maximum bit errors: 2124236815 
+maximum bit errors: 2124481239 
+maximum bit errors: 2124371289 
+maximum bit errors: 2124161353 
+ BER 0: 0.0165966
+359:      BW: 89.1044 MidAtt: 17.7622 MaxAtt: 10.7467 phase:1.11371
+Load WaveShaper Sucessful
+maximum bit errors: 1509182770 
+maximum bit errors: 1504091319 
+maximum bit errors: 1506523266 
+maximum bit errors: 1508459371 
+maximum bit errors: 1502550189 
+ BER 0: 0.0117684
+360:      BW: 88.9162 MidAtt: 17.7472 MaxAtt: 10.7608 phase:1.1988
+Load WaveShaper Sucessful
+maximum bit errors: 1456460403 
+maximum bit errors: 1456776925 
+maximum bit errors: 1457753683 
+maximum bit errors: 1457425336 
+maximum bit errors: 1460944001 
+ BER 0: 0.0113853
+361:      BW: 88.8499 MidAtt: 17.8452 MaxAtt: 10.7327 phase:1.22459
+Load WaveShaper Sucessful
+maximum bit errors: 1488314646 
+maximum bit errors: 1493388880 
+maximum bit errors: 1490283367 
+maximum bit errors: 1493430336 
+maximum bit errors: 1489206801 
+ BER 0: 0.0116481
+362:      BW: 88.899 MidAtt: 17.7794 MaxAtt: 10.63 phase:1.03613
+Load WaveShaper Sucessful
+maximum bit errors: 1566253215 
+maximum bit errors: 1568808179 
+maximum bit errors: 1567537292 
+maximum bit errors: 1562585648 
+maximum bit errors: 1561226405 
+ BER 0: 0.0122301
+363:      BW: 74.2128 MidAtt: 19.3152 MaxAtt: 16.6639 phase:2.4694
+Load WaveShaper Sucessful
+maximum bit errors: 482595092 
+maximum bit errors: 506522545 
+maximum bit errors: 482664621 
+LOS/LOL!!!
+maximum bit errors: 484903904 
+ BER 0: 0.00383878
+364:      BW: 74.3277 MidAtt: 19.2086 MaxAtt: 16.6659 phase:2.49399
+Load WaveShaper Sucessful
+maximum bit errors: 484165142 
+maximum bit errors: 484461426 
+maximum bit errors: 478006152 
+maximum bit errors: 488989858 
+maximum bit errors: 482166644 
+ BER 0: 0.00377811
+365:      BW: 74.9096 MidAtt: 19.5091 MaxAtt: 16.4774 phase:2.59954
+Load WaveShaper Sucessful
+maximum bit errors: 474722578 
+maximum bit errors: 527974792 
+maximum bit errors: 484174433 
+maximum bit errors: 506981440 
+maximum bit errors: 479713686 
+ BER 0: 0.00383039
+366:      BW: 74.1374 MidAtt: 19.296 MaxAtt: 16.8249 phase:2.50689
+Load WaveShaper Sucessful
+maximum bit errors: 467485111 
+maximum bit errors: 467985579 
+maximum bit errors: 487918453 
+maximum bit errors: 466936514 
+maximum bit errors: 466555741 
+ BER 0: 0.0036521
+367:      BW: 52.9328 MidAtt: 18.4566 MaxAtt: 1.02233 phase:1.35118
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 4294967295 
+LOS/LOL!!!
+LOS/LOL!!!
+maximum bit errors: 4294967295 
+ BER 0: 0.0335544
+368:      BW: 53.0145 MidAtt: 18.5374 MaxAtt: 0.946511 phase:1.32836
+Load WaveShaper Sucessful
+maximum bit errors: 4294967295 
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0335544
+369:      BW: 53.3275 MidAtt: 18.4416 MaxAtt: 0.970646 phase:1.32618
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+ BER 0: 0.0335544
+370:      BW: 53.1762 MidAtt: 18.5359 MaxAtt: 1.01964 phase:1.33474
+Load WaveShaper Sucessful
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+ BER 0: 0.0335544
+371:      BW: 97.7828 MidAtt: 14.5181 MaxAtt: 10.9306 phase:1.96145
+Load WaveShaper Sucessful
+maximum bit errors: 889770829 
+maximum bit errors: 886042681 
+maximum bit errors: 886615523 
+maximum bit errors: 885136368 
+LOS/LOL!!!
+ BER 0: 0.00693341
+372:      BW: 97.9487 MidAtt: 15.0802 MaxAtt: 11.0483 phase:2.04645
+Load WaveShaper Sucessful
+maximum bit errors: 925983868 
+maximum bit errors: 929097933 
+maximum bit errors: 927273870 
+maximum bit errors: 927561058 
+maximum bit errors: 930233958 
+ BER 0: 0.00724983
+373:      BW: 97.4942 MidAtt: 14.7839 MaxAtt: 10.9058 phase:1.93114
+Load WaveShaper Sucessful
+maximum bit errors: 928702840 
+maximum bit errors: 923054485 
+maximum bit errors: 924223722 
+maximum bit errors: 923496897 
+maximum bit errors: 922547031 
+ BER 0: 0.00721556
+374:      BW: 96.9418 MidAtt: 14.575 MaxAtt: 10.8076 phase:2.00934
+Load WaveShaper Sucessful
+maximum bit errors: 912153178 
+maximum bit errors: 909919366 
+maximum bit errors: 906337930 
+maximum bit errors: 910077354 
+maximum bit errors: 908002858 
+ BER 0: 0.00710417
+375:      BW: 97.9118 MidAtt: 10.8339 MaxAtt: 12.1881 phase:5.94762
+Load WaveShaper Sucessful
+maximum bit errors: 287721498 
+maximum bit errors: 287721680 
+maximum bit errors: 289507568 
+maximum bit errors: 289097881 
+maximum bit errors: 289482056 
+ BER 0: 0.00225599
+376:      BW: 97.4881 MidAtt: 11.0942 MaxAtt: 12.4638 phase:5.96402
+Load WaveShaper Sucessful
+maximum bit errors: 246619003 
+maximum bit errors: 246347747 
+maximum bit errors: 247557184 
+maximum bit errors: 247798917 
+maximum bit errors: 247584502 
+ BER 0: 0.00193167
+377:      BW: 98.462 MidAtt: 10.7139 MaxAtt: 12.5161 phase:6.03288
+Load WaveShaper Sucessful
+maximum bit errors: 244683158 
+maximum bit errors: 244209927 
+maximum bit errors: 858021303 
+maximum bit errors: 243781003 
+maximum bit errors: 244609194 
+ BER 0: 0.00191016
+378:      BW: 98.1535 MidAtt: 11.3025 MaxAtt: 12.153 phase:5.97495
+Load WaveShaper Sucessful
+maximum bit errors: 283280660 
+maximum bit errors: 284227142 
+maximum bit errors: 283620972 
+maximum bit errors: 284827608 
+maximum bit errors: 283429447 
+ BER 0: 0.00221687
+379:      BW: 51.9592 MidAtt: 16.6254 MaxAtt: 3.66915 phase:4.07408
+Load WaveShaper Sucessful
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+LOS/LOL!!!
+ BER 0: 0.0335544
+380:      BW: 51.7788 MidAtt: 16.7352 MaxAtt: 3.82665 phase:4.12975
+Load WaveShaper Sucessful
+maximum bit errors: 62935920 
+maximum bit errors: 271072109 
+maximum bit errors: 202523830 
+maximum bit errors: 1331600473 
+maximum bit errors: 1232651742 
+ BER 0: 0.00444335
+381:      BW: 52.2947 MidAtt: 16.7422 MaxAtt: 3.94004 phase:4.05228
+Load WaveShaper Sucessful
+maximum bit errors: 1352399946 
+LOS/LOL!!!
+LOS/LOL!!!
+maximum bit errors: 1716022891 
+LOS/LOL!!!
+ BER 0: 0.0268384
+382:      BW: 52.1772 MidAtt: 16.571 MaxAtt: 3.70851 phase:4.08927
+Load WaveShaper Sucessful
+LOS/LOL!!!
+LOS/LOL!!!
+maximum bit errors: 1748982589 
+LOS/LOL!!!
+maximum bit errors: 1258281783 
+ BER 0: 0.0269243
+383:      BW: 81.5319 MidAtt: 9.58224 MaxAtt: 15.5863 phase:3.82055
+Load WaveShaper Sucessful
+maximum bit errors: 460488743 
+maximum bit errors: 461701120 
+maximum bit errors: 461059011 
+maximum bit errors: 460247366 
+maximum bit errors: 461029664 
+ BER 0: 0.00360046
+384:      BW: 80.7444 MidAtt: 9.50422 MaxAtt: 15.7522 phase:3.77839
+Load WaveShaper Sucessful
+maximum bit errors: 626484153 
+maximum bit errors: 624822246 
+maximum bit errors: 620167719 
+maximum bit errors: 621890330 
+maximum bit errors: 621301537 
+ BER 0: 0.00486462
+385:      BW: 80.3752 MidAtt: 9.49393 MaxAtt: 15.8354 phase:3.74288
+Load WaveShaper Sucessful
+maximum bit errors: 702247747 
+maximum bit errors: 702454129 
+maximum bit errors: 703044758 
+maximum bit errors: 702016980 
+maximum bit errors: 699368859 
+ BER 0: 0.00548625
+386:      BW: 80.9248 MidAtt: 9.13582 MaxAtt: 15.6876 phase:3.74441
+Load WaveShaper Sucessful
+maximum bit errors: 710797163 
+maximum bit errors: 708953206 
+maximum bit errors: 709605741 
+maximum bit errors: 710814852 
+maximum bit errors: 708145808 
+ BER 0: 0.0055452
+387:      BW: 80.2302 MidAtt: 2.11642 MaxAtt: 12.5409 phase:6.06622
+Load WaveShaper Sucessful
+maximum bit errors: 2618529331 
+maximum bit errors: 2618332399 
+maximum bit errors: 2616949442 
+maximum bit errors: 2616274300 
+maximum bit errors: 2620285663 
+ BER 0: 0.0204526
+388:      BW: 80.0313 MidAtt: 2.08058 MaxAtt: 12.5648 phase:6.09945
+Load WaveShaper Sucessful
+maximum bit errors: 2646321610 
+maximum bit errors: 2648221718 
+maximum bit errors: 2645631917 
+maximum bit errors: 2648140061 
+maximum bit errors: 2647027566 
+ BER 0: 0.020681
+389:      BW: 80.3137 MidAtt: 1.93691 MaxAtt: 12.8543 phase:6.06958
+Load WaveShaper Sucessful
+maximum bit errors: 2714674703 
+maximum bit errors: 2712667996 
+maximum bit errors: 2712947331 
+maximum bit errors: 2715264786 
+maximum bit errors: 2712903906 
+ BER 0: 0.0211993
+390:      BW: 79.756 MidAtt: 1.94382 MaxAtt: 12.5051 phase:6.04814
+Load WaveShaper Sucessful
+maximum bit errors: 2576722117 
+maximum bit errors: 2576871034 
+maximum bit errors: 2574740182 
+maximum bit errors: 2574414513 
+maximum bit errors: 2573735082 
+ BER 0: 0.0201195
+391:      BW: 61.3367 MidAtt: 13.6046 MaxAtt: 19.789 phase:4.10032
+Load WaveShaper Sucessful
+maximum bit errors: 2190148371 
+LOS/LOL!!!
+maximum bit errors: 2190271080 
+maximum bit errors: 2190271285 
+maximum bit errors: 2190047947 
+ BER 0: 0.0171112
+392:      BW: 61.6229 MidAtt: 13.5443 MaxAtt: 19.6156 phase:4.22716
+Load WaveShaper Sucessful
+maximum bit errors: 2253004651 
+maximum bit errors: 2253404604 
+maximum bit errors: 2252674318 
+maximum bit errors: 2257215112 
+maximum bit errors: 2251604901 
+ BER 0: 0.0176018
+393:      BW: 61.6129 MidAtt: 13.4309 MaxAtt: 19.6757 phase:4.17799
+Load WaveShaper Sucessful
+maximum bit errors: 2214508602 
+maximum bit errors: 2212159609 
+maximum bit errors: 2216963726 
+maximum bit errors: 2219964369 
+maximum bit errors: 2218527269 
+ BER 0: 0.0173177
+394:      BW: 61.5036 MidAtt: 13.4781 MaxAtt: 19.7283 phase:4.13478
+Load WaveShaper Sucessful
+maximum bit errors: 2199236344 
+maximum bit errors: 2200415408 
+maximum bit errors: 2200828431 
+maximum bit errors: 2205299129 
+maximum bit errors: 2203880989 
+ BER 0: 0.0172008
+395:      BW: 89.7199 MidAtt: 5.2746 MaxAtt: 1.44892 phase:4.73444
+Load WaveShaper Sucessful
+maximum bit errors: 2203590222 
+maximum bit errors: 2202617830 
+maximum bit errors: 2201502865 
+maximum bit errors: 2201862957 
+maximum bit errors: 2202271342 
+ BER 0: 0.0172051
+396:      BW: 89.7639 MidAtt: 4.94834 MaxAtt: 1.60543 phase:4.81111
+Load WaveShaper Sucessful
+maximum bit errors: 2126031033 
+maximum bit errors: 2126746276 
+maximum bit errors: 2127104782 
+maximum bit errors: 2127677868 
+maximum bit errors: 2127359485 
+ BER 0: 0.0166177
+397:      BW: 89.5566 MidAtt: 5.06635 MaxAtt: 1.3562 phase:4.70451
+Load WaveShaper Sucessful
+maximum bit errors: 2180268745 
+maximum bit errors: 2177477508 
+maximum bit errors: 2178254128 
+maximum bit errors: 2179706541 
+maximum bit errors: 2176905972 
+ BER 0: 0.0170194
+398:      BW: 89.7396 MidAtt: 5.05996 MaxAtt: 1.45897 phase:4.78084
+Load WaveShaper Sucessful
+maximum bit errors: 2164879071 
+maximum bit errors: 2165745205 
+maximum bit errors: 2165603374 
+maximum bit errors: 2166634527 
+maximum bit errors: 2166861916 
+ BER 0: 0.0169218
+399:      BW: 89.0746 MidAtt: 17.563 MaxAtt: 10.8011 phase:1.19958
+Load WaveShaper Sucessful
+maximum bit errors: 1417387344 
+maximum bit errors: 1411260204 
+maximum bit errors: 1412362327 
+maximum bit errors: 1406836429 
+maximum bit errors: 1407143960 
+ BER 0: 0.0110176
+400:      BW: 88.6222 MidAtt: 17.8278 MaxAtt: 10.9051 phase:1.09798
+Load WaveShaper Sucessful
+maximum bit errors: 1339243272 
+LOS/LOL!!!
+maximum bit errors: 1340529476 
+maximum bit errors: 1339365384 
+maximum bit errors: 1341699531 
+ BER 0: 0.0104729
+401:      BW: 67.2597 MidAtt: 19.5702 MaxAtt: 11.3247 phase:4.60146
+Load WaveShaper Sucessful
+maximum bit errors: 776768957 
+maximum bit errors: 773244045 
+maximum bit errors: 775435725 
+maximum bit errors: 769976562 
+maximum bit errors: 775741176 
+ BER 0: 0.00605318
+402:      BW: 64.8787 MidAtt: 15.8569 MaxAtt: 14.5642 phase:2.33898
+Load WaveShaper Sucessful
+maximum bit errors: 178912806 
+maximum bit errors: 180336406 
+maximum bit errors: 179765783 
+maximum bit errors: 177368638 
+maximum bit errors: 180433623 
+ BER 0: 0.00140368
+403:      BW: 72.3468 MidAtt: 8.2221 MaxAtt: 9.8746 phase:5.74041
+Load WaveShaper Sucessful
+maximum bit errors: 594243281 
+maximum bit errors: 588050182 
+maximum bit errors: 590205981 
+maximum bit errors: 587937079 
+maximum bit errors: 586864546 
+ BER 0: 0.00459946
+404:      BW: 78.0706 MidAtt: 19.6211 MaxAtt: 17.0799 phase:5.95889
+Load WaveShaper Sucessful
+maximum bit errors: 645341062 
+maximum bit errors: 658784329 
+maximum bit errors: 649396761 
+maximum bit errors: 753222430 
+maximum bit errors: 705408681 
+ BER 0: 0.00524372
+405:      BW: 68.9954 MidAtt: 19.489 MaxAtt: 13.7344 phase:0.561915
+Load WaveShaper Sucessful
+maximum bit errors: 352141845 
+maximum bit errors: 352884358 
+maximum bit errors: 352096533 
+maximum bit errors: 351953118 
+maximum bit errors: 353087152 
+ BER 0: 0.00275292
+406:      BW: 90.5401 MidAtt: 2.70601 MaxAtt: 7.20453 phase:2.95898
+Load WaveShaper Sucessful
+maximum bit errors: 888274678 
+maximum bit errors: 886841934 
+maximum bit errors: 881043665 
+maximum bit errors: 888429729 
+maximum bit errors: 889748540 
+ BER 0: 0.00693632
+407:      BW: 82.2011 MidAtt: 2.93973 MaxAtt: 6.49319 phase:2.45646
+Load WaveShaper Sucessful
+maximum bit errors: 952646917 
+maximum bit errors: 952078035 
+maximum bit errors: 953594694 
+maximum bit errors: 948463717 
+maximum bit errors: 948522163 
+ BER 0: 0.00743033
+408:      BW: 74.9775 MidAtt: 16.7407 MaxAtt: 10.1467 phase:4.7484
+Load WaveShaper Sucessful
+maximum bit errors: 56857987543757 
+maximum bit errors: 1202463645 
+maximum bit errors: 1204881967 
+maximum bit errors: 1198061410 
+maximum bit errors: 1204325560 
+ BER 0: 0.00940179
+409:      BW: 82.7359 MidAtt: 16.8145 MaxAtt: 16.0736 phase:1.29209
+Load WaveShaper Sucessful
+maximum bit errors: 233556202 
+maximum bit errors: 234478944 
+maximum bit errors: 234792366 
+maximum bit errors: 234484380 
+maximum bit errors: 236524334 
+ BER 0: 0.0018327
+410:      BW: 96.2231 MidAtt: 7.45569 MaxAtt: 5.09841 phase:3.51498
+Load WaveShaper Sucessful
+maximum bit errors: 2130235178 
+maximum bit errors: 2131317945 
+maximum bit errors: 2128014735 
+maximum bit errors: 2127326965 
+maximum bit errors: 277164957612218 
+ BER 0: 0.0166181
+411:      BW: 66.7743 MidAtt: 19.7371 MaxAtt: 11.5034 phase:4.61717
+Load WaveShaper Sucessful
+maximum bit errors: 721751482 
+maximum bit errors: 4294938087 
+maximum bit errors: 721150081 
+maximum bit errors: 721334615 
+maximum bit errors: 720777765 
+ BER 0: 0.00563603
+412:      BW: 67.1551 MidAtt: 19.4843 MaxAtt: 11.3262 phase:4.601
+Load WaveShaper Sucessful
+maximum bit errors: 743272064 
+maximum bit errors: 746033344 
+maximum bit errors: 745740934 
+maximum bit errors: 745829994 
+maximum bit errors: 744395340 
+ BER 0: 0.00582283
+413:      BW: 67.1812 MidAtt: 19.5737 MaxAtt: 11.1015 phase:4.518
+Load WaveShaper Sucessful
+maximum bit errors: 836584626 
+maximum bit errors: 836611205 
+maximum bit errors: 835098560 
+maximum bit errors: 837602336 
+maximum bit errors: 839219560 
+ BER 0: 0.00653854
+414:      BW: 66.9737 MidAtt: 19.7232 MaxAtt: 11.418 phase:4.5307
+Load WaveShaper Sucessful
+maximum bit errors: 785142796 
+maximum bit errors: 786275551 
+maximum bit errors: 784653324 
+maximum bit errors: 781689236 
+maximum bit errors: 784219168 
+ BER 0: 0.00613025
+415:      BW: 64.5644 MidAtt: 15.7878 MaxAtt: 14.3727 phase:2.26915
+Load WaveShaper Sucessful
+maximum bit errors: 193365263 
+maximum bit errors: 193032854 
+maximum bit errors: 195011194 
+maximum bit errors: 193897992 
+maximum bit errors: 193847077 
+ BER 0: 0.00151331
+416:      BW: 64.0168 MidAtt: 15.6441 MaxAtt: 14.3876 phase:2.39185
+Load WaveShaper Sucessful
+maximum bit errors: 238957443 
+maximum bit errors: 239295160 
+maximum bit errors: 240123216 
+maximum bit errors: 241154882 
+maximum bit errors: 241197470 
+ BER 0: 0.00187649
+417:      BW: 64.1759 MidAtt: 15.6186 MaxAtt: 14.2156 phase:2.29222
+Load WaveShaper Sucessful
+maximum bit errors: 281470899634118 
+maximum bit errors: 216465408 
+maximum bit errors: 216767243 
+maximum bit errors: 216031696 
+maximum bit errors: 216587737 
+ BER 0: 0.00170989
+418:      BW: 64.478 MidAtt: 16.0739 MaxAtt: 14.506 phase:2.40743
+Load WaveShaper Sucessful
+maximum bit errors: 198195661 
+maximum bit errors: 198473862 
+maximum bit errors: 197776489 
+maximum bit errors: 197794247 
+maximum bit errors: 197998623 
+ BER 0: 0.00154685
+419:      BW: 72.0014 MidAtt: 7.9849 MaxAtt: 9.7902 phase:5.77255
+Load WaveShaper Sucessful
+maximum bit errors: 4294939512 
+maximum bit errors: 659948510 
+maximum bit errors: 658575481 
+maximum bit errors: 657108987 
+maximum bit errors: 658945939 
+ BER 0: 0.00514966
+420:      BW: 72.4939 MidAtt: 8.23441 MaxAtt: 10.0576 phase:5.70667
+Load WaveShaper Sucessful
+maximum bit errors: 615547195 
+maximum bit errors: 611640704 
+maximum bit errors: 610571672 
+LOS/LOL!!!
+maximum bit errors: 4294932040 
+ BER 0: 0.0143805
+421:      BW: 72.3648 MidAtt: 8.05994 MaxAtt: 9.8511 phase:5.68754
+Load WaveShaper Sucessful
+maximum bit errors: 628259807 
+maximum bit errors: 626821443 
+maximum bit errors: 627147780 
+maximum bit errors: 626643297 
+maximum bit errors: 625750597 
+ BER 0: 0.00489743
+422:      BW: 72.151 MidAtt: 8.28235 MaxAtt: 9.6982 phase:5.65478
+Load WaveShaper Sucessful
+maximum bit errors: 603046489 
+maximum bit errors: 601819579 
+maximum bit errors: 602598729 
+maximum bit errors: 603631925 
+maximum bit errors: 601825227 
+ BER 0: 0.00470695
+423:      BW: 78.651 MidAtt: 19.8606 MaxAtt: 17.1507 phase:6.0525
+Load WaveShaper Sucessful
+maximum bit errors: 726322572 
+maximum bit errors: 726804477 
+maximum bit errors: 721328760 
+maximum bit errors: 720143862 
+maximum bit errors: 736721918 
+ BER 0: 0.00566265
+424:      BW: 76.9062 MidAtt: 19.4936 MaxAtt: 17.1138 phase:6.01194
+Load WaveShaper Sucessful
+maximum bit errors: 599000015 
+maximum bit errors: 578562312 
+maximum bit errors: 586637847 
+maximum bit errors: 579055276 
+maximum bit errors: 580480301 
+ BER 0: 0.00454733
+425:      BW: 78.1198 MidAtt: 19.7327 MaxAtt: 17.1493 phase:6.00613
+Load WaveShaper Sucessful
+maximum bit errors: 664667315 
+maximum bit errors: 666656739 
+maximum bit errors: 664401747 
+maximum bit errors: 687167650 
+maximum bit errors: 664477779 
+ BER 0: 0.0051974
+426:      BW: 78.5043 MidAtt: 19.6641 MaxAtt: 16.9654 phase:5.9587
+Load WaveShaper Sucessful
+maximum bit errors: 643156589 
+maximum bit errors: 637152288 
+maximum bit errors: 640736082 
+maximum bit errors: 641902602 
+maximum bit errors: 630404332 
+ BER 0: 0.00499946
+427:      BW: 69.1557 MidAtt: 19.2304 MaxAtt: 13.8309 phase:0.67871
+Load WaveShaper Sucessful
+maximum bit errors: 342950536 
+maximum bit errors: 342120172 
+maximum bit errors: 340563513 
+maximum bit errors: 342329782 
+maximum bit errors: 341283209 
+ BER 0: 0.00267118
+428:      BW: 70.0998 MidAtt: 19.7075 MaxAtt: 14.128 phase:0.573686
+Load WaveShaper Sucessful
+maximum bit errors: 399812813 
+maximum bit errors: 400943514 
+maximum bit errors: 400727776 
+maximum bit errors: 398629515 
+maximum bit errors: 399841190 
+ BER 0: 0.00312599
+429:      BW: 69.377 MidAtt: 19.2863 MaxAtt: 13.7577 phase:0.557093
+Load WaveShaper Sucessful
+maximum bit errors: 350596158 
+maximum bit errors: 352914152 
+maximum bit errors: 353411331 
+maximum bit errors: 351331739 
+maximum bit errors: 352193229 
+ BER 0: 0.00275114
+430:      BW: 68.925 MidAtt: 19.0726 MaxAtt: 13.8262 phase:0.508394
+Load WaveShaper Sucessful
+maximum bit errors: 307955302 
+maximum bit errors: 307126623 
+maximum bit errors: 305445497 
+maximum bit errors: 306368012 
+maximum bit errors: 306327140 
+ BER 0: 0.00239537
+431:      BW: 90.5369 MidAtt: 2.71127 MaxAtt: 7.0205 phase:2.99079
+Load WaveShaper Sucessful
+maximum bit errors: 894843088 
+maximum bit errors: 897650260 
+maximum bit errors: 896092796 
+maximum bit errors: 898679957 
+maximum bit errors: 898945497 
+ BER 0: 0.00701152
+432:      BW: 90.0702 MidAtt: 2.48782 MaxAtt: 7.09902 phase:3.01939
+Load WaveShaper Sucessful
+maximum bit errors: 974899791 
+maximum bit errors: 972667618 
+maximum bit errors: 975236205 
+maximum bit errors: 977836739 
+maximum bit errors: 975875654 
+ BER 0: 0.00761982
+433:      BW: 90.5623 MidAtt: 2.581 MaxAtt: 7.35935 phase:3.00652
+Load WaveShaper Sucessful
+maximum bit errors: 930820564 
+maximum bit errors: 931615264 
+maximum bit errors: 930808545 
+maximum bit errors: 931059954 
+maximum bit errors: 928284223 
+ BER 0: 0.00727263
+434:      BW: 90.4985 MidAtt: 2.64709 MaxAtt: 7.10407 phase:2.97099
+Load WaveShaper Sucessful
+maximum bit errors: 907252613 
+maximum bit errors: 907758303 
+maximum bit errors: 909295095 
+maximum bit errors: 909823385 
+maximum bit errors: 909842312 
+ BER 0: 0.00710124
+435:      BW: 81.4621 MidAtt: 2.81054 MaxAtt: 6.49463 phase:2.52292
+Load WaveShaper Sucessful
+maximum bit errors: 915560004 
+maximum bit errors: 916799633 
+maximum bit errors: 917845456 
+maximum bit errors: 917712709 
+maximum bit errors: 56110365915173 
+ BER 0: 0.00716526
+436:      BW: 82.5972 MidAtt: 2.90837 MaxAtt: 6.42036 phase:2.41892
+Load WaveShaper Sucessful
+maximum bit errors: 945007455 
+maximum bit errors: 948913210 
+maximum bit errors: 944712167 
+maximum bit errors: 946389293 
+maximum bit errors: 944574857 
+ BER 0: 0.0073857
+437:      BW: 82.2689 MidAtt: 2.70031 MaxAtt: 6.42816 phase:2.47212
+Load WaveShaper Sucessful
+maximum bit errors: 281471681617131 
+maximum bit errors: 998824829 
+maximum bit errors: 996041655 
+maximum bit errors: 997908419 
+maximum bit errors: 1000159832 
+ BER 0: 0.00782212
+438:      BW: 82.36 MidAtt: 2.78663 MaxAtt: 6.3312 phase:2.51158
+Load WaveShaper Sucessful
+maximum bit errors: 979679879 
+maximum bit errors: 978783982 
+maximum bit errors: 979898488 
+maximum bit errors: 977431609 
+maximum bit errors: 977483118 
+ BER 0: 0.0076457
+439:      BW: 75.0774 MidAtt: 16.79 MaxAtt: 10.1546 phase:4.74022
+Load WaveShaper Sucessful
+maximum bit errors: 1232045269 
+maximum bit errors: 1231350598 
+maximum bit errors: 1227372509 
+maximum bit errors: 1230994751 
+maximum bit errors: 1228987809 
+ BER 0: 0.00961285
+440:      BW: 74.5683 MidAtt: 16.6777 MaxAtt: 10.2958 phase:4.72701
+Load WaveShaper Sucessful
+maximum bit errors: 1006190318 
+maximum bit errors: 1010038912 
+maximum bit errors: 1007881640 
+maximum bit errors: 1007022891 
+maximum bit errors: 1010450371 
+ BER 0: 0.00787746
+441:      BW: 75.0311 MidAtt: 16.8006 MaxAtt: 10.1005 phase:4.7038
+Load WaveShaper Sucessful
+maximum bit errors: 1270802155 
+maximum bit errors: 1269503944 
+maximum bit errors: 1271384298 
+maximum bit errors: 1266784315 
+maximum bit errors: 1265791744 
+ BER 0: 0.0099143
+442:      BW: 75.0335 MidAtt: 16.7938 MaxAtt: 10.2053 phase:4.77917
+Load WaveShaper Sucessful
+maximum bit errors: 1147609150 
+maximum bit errors: 1148566502 
+maximum bit errors: 1148630515 
+maximum bit errors: 1153165841 
+maximum bit errors: 1149502928 
+ BER 0: 0.00897578
+443:      BW: 82.9345 MidAtt: 17.086 MaxAtt: 15.8648 phase:1.29585
+Load WaveShaper Sucessful
+maximum bit errors: 228351930 
+maximum bit errors: 227883244 
+maximum bit errors: 230261111 
+maximum bit errors: 235203143 
+maximum bit errors: 231570395 
+ BER 0: 0.00179735
+444:      BW: 82.4396 MidAtt: 16.6055 MaxAtt: 16.2944 phase:1.2361
+Load WaveShaper Sucessful
+maximum bit errors: 212666413 
+maximum bit errors: 217213047 
+maximum bit errors: 213430908 
+maximum bit errors: 215026021 
+maximum bit errors: 211850222 
+ BER 0: 0.00166959
+445:      BW: 82.6456 MidAtt: 16.3038 MaxAtt: 16.0945 phase:1.35081
+Load WaveShaper Sucessful
+maximum bit errors: 192681720 
+maximum bit errors: 198564694 
+maximum bit errors: 192397643 
+maximum bit errors: 192520369 
+maximum bit errors: 192583302 
+ BER 0: 0.00150465
+446:      BW: 82.7075 MidAtt: 16.4831 MaxAtt: 15.789 phase:1.21468
+Load WaveShaper Sucessful
+maximum bit errors: 190472281 
+maximum bit errors: 190579141 
+maximum bit errors: 4294936693 
+maximum bit errors: 190817489 
+maximum bit errors: 190583477 
+ BER 0: 0.00148953
+447:      BW: 96.495 MidAtt: 7.50986 MaxAtt: 5.02321 phase:3.51676
+Load WaveShaper Sucessful
+maximum bit errors: 2151311433 
+maximum bit errors: 2150998588 
+maximum bit errors: 2151082888 
+maximum bit errors: 2149698090 
+maximum bit errors: 2150570804 
+ BER 0: 0.0168038
+448:      BW: 96.1023 MidAtt: 7.4392 MaxAtt: 5.15131 phase:3.51711
+Load WaveShaper Sucessful
+maximum bit errors: 2088385695 
+maximum bit errors: 2089542383 
+maximum bit errors: 2089070046 
+maximum bit errors: 2089464117 
+maximum bit errors: 2090017762 
+ BER 0: 0.0163231
+449:      BW: 95.8653 MidAtt: 7.43005 MaxAtt: 5.07827 phase:3.51704
+Load WaveShaper Sucessful
+maximum bit errors: 2155740784 
+maximum bit errors: 2155363708 
+maximum bit errors: 2154989585 
+maximum bit errors: 2155370305 
+maximum bit errors: 2155254303 
+ BER 0: 0.0168385
+450:      BW: 96.3566 MidAtt: 7.32237 MaxAtt: 5.14124 phase:3.50984
+Load WaveShaper Sucessful
+maximum bit errors: 2078012211 
+maximum bit errors: 2078142394 
+maximum bit errors: 2079285051 
+maximum bit errors: 2084178768 
+LOS/LOL!!!
+ BER 0: 0.0162542
+451:      BW: 56.8951 MidAtt: 3.47916 MaxAtt: 8.79801 phase:3.92039
+Load WaveShaper Sucessful
+maximum bit errors: 2476727630 
+maximum bit errors: 2477243969 
+maximum bit errors: 2483779684 
+maximum bit errors: 2479995167 
+maximum bit errors: 2483872787 
+ BER 0: 0.0193777
+452:      BW: 55.1339 MidAtt: 10.4484 MaxAtt: 7.13036 phase:4.80864
+Load WaveShaper Sucessful
+maximum bit errors: 1539715014 
+maximum bit errors: 1541616036 
+maximum bit errors: 1536770536 
+maximum bit errors: 1541636458 
+maximum bit errors: 1544061078 
+ BER 0: 0.012039
+453:      BW: 64.7107 MidAtt: 16.099 MaxAtt: 14.5531 phase:2.37363
+Load WaveShaper Sucessful
+maximum bit errors: 186195375 
+maximum bit errors: 186911147 
+maximum bit errors: 186506508 
+maximum bit errors: 186699578 
+maximum bit errors: 186319427 
+ BER 0: 0.0014571
+454:      BW: 64.8737 MidAtt: 15.8547 MaxAtt: 14.6814 phase:2.35494
+Load WaveShaper Sucessful
+maximum bit errors: 185884378 
+maximum bit errors: 186684466 
+maximum bit errors: 185572114 
+maximum bit errors: 186055854 
+maximum bit errors: 186458324 
+ BER 0: 0.00145416
+455:      BW: 65.3449 MidAtt: 16.1989 MaxAtt: 14.4914 phase:2.32029
+Load WaveShaper Sucessful
+maximum bit errors: 166545955 
+maximum bit errors: 166573007 
+maximum bit errors: 166857520 
+maximum bit errors: 166245262 
+maximum bit errors: 166461425 
+ BER 0: 0.00130099
+456:      BW: 64.3268 MidAtt: 15.7888 MaxAtt: 14.3634 phase:2.33493
+Load WaveShaper Sucessful
+maximum bit errors: 207551534 
+maximum bit errors: 207586810 
+maximum bit errors: 207265750 
+maximum bit errors: 206912795 
+maximum bit errors: 207426276 
+ BER 0: 0.00162043
+457:      BW: 76.9656 MidAtt: 19.5961 MaxAtt: 16.9854 phase:6.03714
+Load WaveShaper Sucessful
+maximum bit errors: 603527858 
+maximum bit errors: 583472309 
+maximum bit errors: 601060464 
+maximum bit errors: 604569928 
+maximum bit errors: 587902680 
+ BER 0: 0.00466795
+458:      BW: 76.8442 MidAtt: 19.5284 MaxAtt: 16.9975 phase:5.98543
+Load WaveShaper Sucessful
+maximum bit errors: 594386861 
+maximum bit errors: 638204871 
+maximum bit errors: 600777577 
+maximum bit errors: 618685230 
+maximum bit errors: 604300419 
+ BER 0: 0.00474938
+459:      BW: 76.8921 MidAtt: 19.5592 MaxAtt: 17.0947 phase:6.04749
+Load WaveShaper Sucessful
+maximum bit errors: 652815943 
+maximum bit errors: 598461847 
+maximum bit errors: 607259265 
+maximum bit errors: 599049516 
+maximum bit errors: 598965222 
+ BER 0: 0.00470123
+460:      BW: 77.3362 MidAtt: 19.3823 MaxAtt: 17.2799 phase:6.0354
+Load WaveShaper Sucessful
+maximum bit errors: 281471329266851 
+maximum bit errors: 659161993 
+maximum bit errors: 643123449 
+maximum bit errors: 655342366 
+maximum bit errors: 684969202 
+ BER 0: 0.00520231
+461:      BW: 72.6131 MidAtt: 8.24892 MaxAtt: 9.82606 phase:5.72637
+Load WaveShaper Sucessful
+maximum bit errors: 577470609 
+maximum bit errors: 578963378 
+maximum bit errors: 580493473 
+maximum bit errors: 579300591 
+maximum bit errors: 578258953 
+ BER 0: 0.0045222
+462:      BW: 72.7295 MidAtt: 8.10184 MaxAtt: 9.79697 phase:5.76338
+Load WaveShaper Sucessful
+maximum bit errors: 593590595 
+maximum bit errors: 594504833 
+maximum bit errors: 592594308 
+maximum bit errors: 592247932 
+maximum bit errors: 592957053 
+ BER 0: 0.00463318
+463:      BW: 72.9698 MidAtt: 8.37996 MaxAtt: 10.0221 phase:5.70729
+Load WaveShaper Sucessful
+maximum bit errors: 560839780 
+maximum bit errors: 559357013 
+maximum bit errors: 559745806 
+maximum bit errors: 562297390 
+maximum bit errors: 565433716 
+ BER 0: 0.00438251
+464:      BW: 72.7332 MidAtt: 7.71304 MaxAtt: 9.7575 phase:5.7298
+Load WaveShaper Sucessful
+maximum bit errors: 642870571 
+maximum bit errors: 641658243 
+maximum bit errors: 642515455 
+maximum bit errors: 642124791 
+maximum bit errors: 643459212 
+ BER 0: 0.00501956
+465:      BW: 90.7446 MidAtt: 2.72096 MaxAtt: 7.16546 phase:2.90137
+Load WaveShaper Sucessful
+maximum bit errors: 878849955 
+maximum bit errors: 879642318 
+maximum bit errors: 879744114 
+maximum bit errors: 878198356 
+maximum bit errors: 877492237 
+ BER 0: 0.00686638
+466:      BW: 90.4556 MidAtt: 2.76828 MaxAtt: 7.2737 phase:2.95066
+Load WaveShaper Sucessful
+maximum bit errors: 897228646 
+maximum bit errors: 898953460 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+ BER 0: 0.0247106
+467:      BW: 91.1006 MidAtt: 2.71739 MaxAtt: 7.21807 phase:2.98734
+Load WaveShaper Sucessful
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+ BER 0: 0.0335544
+468:      BW: 90.9054 MidAtt: 2.75311 MaxAtt: 7.17658 phase:2.99966
+Load WaveShaper Sucessful
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+ BER 0: 0.0335544
+469:      BW: 56.8711 MidAtt: 3.45008 MaxAtt: 8.81498 phase:3.90024
+Load WaveShaper Sucessful
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+ BER 0: 0.0335544
+470:      BW: 56.9665 MidAtt: 3.43848 MaxAtt: 8.74111 phase:3.93381
+Load WaveShaper Sucessful
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+ BER 0: 0.0335544
+471:      BW: 56.7572 MidAtt: 3.42688 MaxAtt: 8.73012 phase:3.88951
+Load WaveShaper Sucessful
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+ BER 0: 0.0335544
+472:      BW: 56.9527 MidAtt: 3.47064 MaxAtt: 8.70395 phase:3.92205
+Load WaveShaper Sucessful
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+ BER 0: 0.0335544
+473:      BW: 54.8515 MidAtt: 10.5171 MaxAtt: 7.1125 phase:4.82843
+Load WaveShaper Sucessful
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+ BER 0: 0.0335544
+474:      BW: 55.1914 MidAtt: 10.5217 MaxAtt: 7.26615 phase:4.81919
+Load WaveShaper Sucessful
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+ BER 0: 0.0335544
+475:      BW: 55.1341 MidAtt: 10.6522 MaxAtt: 7.01647 phase:4.83656
+Load WaveShaper Sucessful
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+ BER 0: 0.0335544
+476:      BW: 55.3748 MidAtt: 10.379 MaxAtt: 7.04018 phase:4.79779
+Load WaveShaper Sucessful
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 25769828841 
+LOS/LOL!!!
+ BER 0: 0.0335544
+477:      BW: 94.5524 MidAtt: 0.549097 MaxAtt: 11.8313 phase:5.07116
+Load WaveShaper Sucessful
+maximum bit errors: 25769840001 
+LOS/LOL!!!
+maximum bit errors: 25769839989 
+LOS/LOL!!!
+maximum bit errors: 25769839984 
+ BER 0: 0.145403
+478:      BW: 96.3665 MidAtt: 14.2479 MaxAtt: 11.6573 phase:4.38336
+Load WaveShaper Sucessful
+maximum bit errors: 8589942894 
+maximum bit errors: 8589942884 
+LOS/LOL!!!
+maximum bit errors: 25769811987 
+LOS/LOL!!!
+ BER 0: 0.0559241
+479:      BW: 64.8452 MidAtt: 16.0861 MaxAtt: 14.4055 phase:2.38417
+Load WaveShaper Sucessful
+maximum bit errors: 25769806485 
+maximum bit errors: 25769806481 
+LOS/LOL!!!
+maximum bit errors: 25769806494 
+maximum bit errors: 25769806495 
+ BER 0: 0.201327
+480:      BW: 64.9665 MidAtt: 15.9834 MaxAtt: 14.5775 phase:2.25223
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 25769806507 
+LOS/LOL!!!
+maximum bit errors: 8589937333 
+LOS/LOL!!!
+ BER 0: 0.0447392
+481:      BW: 65.8713 MidAtt: 16.2637 MaxAtt: 14.5298 phase:2.34315
+Load WaveShaper Sucessful
+maximum bit errors: 25769806149 
+LOS/LOL!!!
+maximum bit errors: 8589936955 
+maximum bit errors: 8589936963 
+LOS/LOL!!!
+ BER 0: 0.0559241
+482:      BW: 64.8398 MidAtt: 16.4562 MaxAtt: 14.4713 phase:2.40874
+Load WaveShaper Sucessful
+maximum bit errors: 8589937321 
+LOS/LOL!!!
+maximum bit errors: 25769806490 
+LOS/LOL!!!
+maximum bit errors: 8589937324 
+ BER 0: 0.0559241
+483:      BW: 72.978 MidAtt: 8.13007 MaxAtt: 10.3242 phase:5.67455
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 25769812906 
+LOS/LOL!!!
+maximum bit errors: 8589943690 
+LOS/LOL!!!
+ BER 0: 0.0447393
+484:      BW: 72.3633 MidAtt: 8.24865 MaxAtt: 9.5116 phase:5.58908
+Load WaveShaper Sucessful
+maximum bit errors: 25769812794 
+maximum bit errors: 25769812769 
+LOS/LOL!!!
+maximum bit errors: 25769812777 
+maximum bit errors: 25769812769 
+ BER 0: 0.201327
+485:      BW: 72.4336 MidAtt: 8.36382 MaxAtt: 10.1482 phase:5.79127
+Load WaveShaper Sucessful
+maximum bit errors: 25769812671 
+LOS/LOL!!!
+maximum bit errors: 8589943493 
+LOS/LOL!!!
+maximum bit errors: 25769812678 
+ BER 0: 0.100663
+486:      BW: 73.579 MidAtt: 8.0783 MaxAtt: 9.89303 phase:5.74608
+Load WaveShaper Sucessful
+LOS/LOL!!!
+LOS/LOL!!!
+maximum bit errors: 25769812141 
+LOS/LOL!!!
+maximum bit errors: 25769812164 
+ BER 0: 0.0894785
+487:      BW: 77.4828 MidAtt: 19.6194 MaxAtt: 17.1998 phase:5.96378
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 8589944421 
+LOS/LOL!!!
+maximum bit errors: 25769813601 
+maximum bit errors: 25769813916 
+ BER 0: 0.100663
+488:      BW: 76.8511 MidAtt: 19.4396 MaxAtt: 16.9161 phase:5.98961
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 8589942953 
+LOS/LOL!!!
+maximum bit errors: 25769812448 
+LOS/LOL!!!
+ BER 0: 0.0447393
+489:      BW: 76.7246 MidAtt: 19.7466 MaxAtt: 17.4899 phase:6.07115
+Load WaveShaper Sucessful
+maximum bit errors: 25769814771 
+maximum bit errors: 25769814374 
+LOS/LOL!!!
+maximum bit errors: 8589944971 
+LOS/LOL!!!
+ BER 0: 0.100663
+490:      BW: 77.0023 MidAtt: 19.5393 MaxAtt: 17.0922 phase:5.94898
+Load WaveShaper Sucessful
+maximum bit errors: 25769813428 
+LOS/LOL!!!
+maximum bit errors: 8589944226 
+LOS/LOL!!!
+maximum bit errors: 25769813427 
+ BER 0: 0.100663
+491:      BW: 90.5166 MidAtt: 2.90804 MaxAtt: 7.13887 phase:2.96986
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 25769816843 
+LOS/LOL!!!
+maximum bit errors: 25769816869 
+maximum bit errors: 25769816822 
+ BER 0: 0.145403
+492:      BW: 90.5894 MidAtt: 3.04548 MaxAtt: 7.18624 phase:2.92231
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 25769816503 
+LOS/LOL!!!
+maximum bit errors: 8589947307 
+LOS/LOL!!!
+ BER 0: 0.0447393
+493:      BW: 91.1023 MidAtt: 2.59152 MaxAtt: 7.10409 phase:2.77292
+Load WaveShaper Sucessful
+maximum bit errors: 25769816745 
+LOS/LOL!!!
+maximum bit errors: 25769816716 
+LOS/LOL!!!
+maximum bit errors: 25769816700 
+ BER 0: 0.145403
+494:      BW: 91.0524 MidAtt: 2.80344 MaxAtt: 7.02601 phase:3.01111
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 25769816295 
+LOS/LOL!!!
+maximum bit errors: 8589947131 
+maximum bit errors: 8589947105 
+ BER 0: 0.0559241
+495:      BW: 94.6783 MidAtt: 0.596698 MaxAtt: 11.7929 phase:5.04402
+Load WaveShaper Sucessful
+maximum bit errors: 8589970261 
+maximum bit errors: 8589970262 
+maximum bit errors: 8589970286 
+LOS/LOL!!!
+maximum bit errors: 25769839447 
+ BER 0: 0.0671091
+496:      BW: 94.7943 MidAtt: 0.624902 MaxAtt: 11.8934 phase:5.06849
+Load WaveShaper Sucessful
+LOS/LOL!!!
+maximum bit errors: 1743 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+ BER 0: 0.0335544
+497:      BW: 94.738 MidAtt: 0.541202 MaxAtt: 11.8035 phase:5.08892
+Load WaveShaper Sucessful
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+ BER 0: 0.0335544
+498:      BW: 94.7786 MidAtt: 0.600058 MaxAtt: 11.7795 phase:5.12957
+Load WaveShaper Sucessful
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+ BER 0: 0.0335544
+499:      BW: 96.2597 MidAtt: 14.1822 MaxAtt: 11.6832 phase:4.42833
+Load WaveShaper Sucessful
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+ BER 0: 0.0335544
+500:      BW: 96.2575 MidAtt: 14.32 MaxAtt: 11.6955 phase:4.42063
+Load WaveShaper Sucessful
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+ BER 0: 0.0335544
+501:      BW: 93.1013 MidAtt: 8.63377 MaxAtt: 5.49793 phase:5.182
+Load WaveShaper Sucessful
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+ BER 0: 0.0335544
+502:      BW: 65.7255 MidAtt: 1.91942 MaxAtt: 5.1606 phase:5.44691
+Load WaveShaper Sucessful
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+ BER 0: 0.0335544
+503:      BW: 90.4406 MidAtt: 3.98608 MaxAtt: 10.2079 phase:4.18043
+Load WaveShaper Sucessful
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+ BER 0: 0.0335544
+504:      BW: 70.4231 MidAtt: 10.6294 MaxAtt: 7.88352 phase:2.17609
+Load WaveShaper Sucessful
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+ BER 0: 0.0335544
+505:      BW: 88.8358 MidAtt: 6.87182 MaxAtt: 2.98197 phase:4.85408
+Load WaveShaper Sucessful
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+ BER 0: 0.0335544
+506:      BW: 83.4987 MidAtt: 12.9374 MaxAtt: 3.29694 phase:3.31818
+Load WaveShaper Sucessful
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+ BER 0: 0.0335544
+507:      BW: 64.3631 MidAtt: 17.1647 MaxAtt: 2.00367 phase:4.98575
+Load WaveShaper Sucessful
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+ BER 0: 0.0335544
+508:      BW: 90.8202 MidAtt: 17.4579 MaxAtt: 4.28507 phase:5.22008
+Load WaveShaper Sucessful
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+ BER 0: 0.0335544
+509:      BW: 92.6522 MidAtt: 15.5659 MaxAtt: 13.742 phase:5.89708
+Load WaveShaper Sucessful
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+ BER 0: 0.0335544
+510:      BW: 69.0208 MidAtt: 18.5682 MaxAtt: 15.9835 phase:2.25838
+Load WaveShaper Sucessful
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+maximum bit errors: 4294967295 
+ BER 0: 0.0335544
