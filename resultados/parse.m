@@ -26,6 +26,7 @@ for file=1:12
   allparam = strvcat(allparam, bestParam);
 end
 
+allparam
 hold off
 allbests
 

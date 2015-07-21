@@ -1,17 +1,20 @@
 close all;
 numEval =  500;
 recordInterval = 10;
-numRuns = 100;
+numRuns = 200;
 evalNum = recordInterval:recordInterval:numEval;
 
-filename = '24_06_2015/testes/sphere.txt'
+
 
 allbests = [];
 allbestsPop = [];
 allparam = [];
 
-[bestMean, bestStdev, popMean, popStdev, paramName, paramsstr, fEnd] = parseOneParameter(  fid, numEval, recordInterval, numRuns)
-    
+filename = 'test_func/sphere_de.txt'
+[best, bestError, bestPop, bestPopError, bestParam ] = parseCompact( numEval, recordInterval, numRuns, filename );
+de = {best, bestError, bestPop, bestPopError, bestParam }
+
+
 %%%%% GET BEST RESULTS %%%%%
 
 file = [3 6 11];
