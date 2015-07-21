@@ -9,8 +9,6 @@ function [ fixed ] = fixVector( vector , numSamples)
         fixed(2, 2) = fixed(3, 2);
     end;
     fixed(1, 2) = fixed(2, 2);
-    
-    fixed = fixed(:, 1:3);
 
 end
 

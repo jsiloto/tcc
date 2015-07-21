@@ -1,7 +1,7 @@
 function [ meanInput, errBar ] = process( input )
 %UNTITLED Summary of this function goes here
 %   Detailed explanation goes here
-numRemove = 5;
+numRemove = 20;
 
 for i=1:numRemove
     [worse, worsePos] = max(input,[], 2);
@@ -16,9 +16,11 @@ input = log10(abs(input));
 
 meanInput = mean(input, 2);
 errBar = std(input,0, 2);
+% errBar = 0.434*errBar./meanInput;
+% meanInput = log10(abs(meanInput));
 
-errBar = errBar(2:end, :);
-meanInput = meanInput(2:end, :);
+errBar(1) = errBar(2);
+meanInput(1) = meanInput(2);
 
 end
 

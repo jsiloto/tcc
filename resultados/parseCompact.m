@@ -16,7 +16,7 @@ baseline = strread(baseline);
 % baseline = 0.0133697;
 
 while 1
-    [ bestMean, bestStdev, popMean, popStdev, paramName, paramsstr, fEnd] = parseOneParameter(  fid, numEval, recordInterval, numRuns)
+    [ bestMean, bestStdev, popMean, popStdev, paramName, paramsstr, fEnd] = parseOneParameter(  fid, numEval, recordInterval, numRuns);
     
     if(fEnd)
         break;
@@ -38,8 +38,6 @@ while 1
     completePopError = [ completePopError popStdev];
     
 end
-completeParams;
-finalResult;
 
 [best bestPos] = min(finalResult(:, 1));
 

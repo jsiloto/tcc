@@ -46,13 +46,14 @@ function [ bestMean, bestStdev, popMean, popStdev, paramName, paramsstr, fEnd] =
             eval = strread(tline);
         end
         run = fixVector(run, numSamples);
-        allBest = [allBest run(:, 3)];
-        allPop = [allPop run(:, 2)];
+        goal = run(1, 3) + run(1, 4);
+        allBest = [allBest run(:, 4)];
+        allPop = [allPop goal-run(:, 2)];
         if ~valid
             break;
         end
     end
-
+    
     [bestMean, bestStdev] = process(allBest);
     [popMean, popStdev] = process(allPop);
 

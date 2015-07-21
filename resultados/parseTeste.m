@@ -6,52 +6,30 @@ evalNum = recordInterval:recordInterval:numEval;
 
 
 
+
+
 allbests = [];
 allbestsPop = [];
 allparam = [];
 
-filename = 'test_func/sphere_de.txt'
-[best, bestError, bestPop, bestPopError, bestParam ] = parseCompact( numEval, recordInterval, numRuns, filename );
-de = {best, bestError, bestPop, bestPopError, bestParam }
+tic()
+formatSpec = 'test_func/%s_%s.txt';
 
-
-%%%%% GET BEST RESULTS %%%%%
-
-file = [3 6 11];
-markerSize = 10;
-LineWidth = 2;
-offset = 0.4;
-
-color = [[0,0.7,0.2]; [0.7,0,0.9]; [0.9, 0,0.2]];
-filename = sprintf(formatSpec,file(i))
-
-[best, bestError, bestPop, bestPopError, bestParam ] = parseCompact( numEval, recordInterval, numRuns, filename );
-
-
-
-hE =errorbar(evalNum, bestPop, bestPopError);
-
-set(hE                            , ...
-'Color'           ,color(i, :)  , ...
-'LineStyle'       , '--'        , ...
-'LineWidth'       , LineWidth        , ...
-'Marker'          , 'o'         , ...
-'MarkerSize'      , markerSize           , ...
-'MarkerEdgeColor' , 'k'  , ...
-'MarkerFaceColor' , color(i, :)  );
-
-
-
-labels=get(gca,'YTickLabel'); % get the y axis labels;
-
-for i=1:size(labels,1)
-labels_modif(i,:)=strcat(labels(i,:), ' %');
+algo = {'de' 'ga' 'opt'}
+problem = {'sphere' 'ackley' 'opt' 'holder'}
+for p=problem
+    p = p{1};
+    result = [];
+    for a=algo
+        a = a{1};
+        filename = sprintf(formatSpec,p, a);
+        [best, bestError, bestPop, bestPopError, bestParam ] = parseCompact( numEval, recordInterval, numRuns, filename );
+        var = {best/100, bestError/100, bestPop/100, bestPopError/100, bestParam };
+        result = [result; var];
+        bestParam
+    end
+    printAlgo( result, evalNum, p);
 end
-set(gca,'YTickLabel',labels_modif)
-legend('GA','OptaiNet', 'DE');
-xlabel('Evaluations')
-ylabel('BER')
-title('Best Individual')
 
-result = allparam(file, :)
 
+toc()
